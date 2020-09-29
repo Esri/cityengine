@@ -19,7 +19,7 @@
           {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
           {% for item in pluginsinorder %}
             {% if item.draft == false %}
-              <a class="subnav-link vertical center" href="{{ plugin.name | downcase }}"><p class="white">{{plugin.platform}}</p></a>
+              <a class="subnav-link vertical center" href="{{ item.name | downcase }}"><p class="white">{{item.platform}}</p></a>
             {% endif %}
           {% endfor %}
         </div>
