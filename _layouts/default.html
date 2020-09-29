@@ -14,11 +14,11 @@
     </nav>
     <div class="subnav darkgrey">
       <div class="subnav-wrapper horizontal stretched">
-        <a class="subnav-title-link vertical center" href="../"><h2 class="subnav-title">CityEngine Plugins</h2></a>
+        <a class="subnav-title-link vertical center" href="{{ '../' | relative_url }}"><h2 class="subnav-title">CityEngine Plugins</h2></a>
         <div class="horizontal stretched">
           {% for plugin in site.plugins %}
             {% if plugin.draft == false %}
-              <a class="subnav-link vertical center" href="{{ plugin.name | relative_url }}"><p class="white">{{plugin.platform}}</p></a>
+              <a class="subnav-link vertical center" href="{{ plugin.name | downcase }}"><p class="white">{{plugin.platform}}</p></a>
             {% endif %}
           {% endfor %}
         </div>
