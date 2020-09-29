@@ -49,7 +49,7 @@ related-topic-3-link: asdf3
         {% if plugin.draft == false %}
           {% if plugin.fullpreview == false %}
           <div class="horizontal small-teaser">
-              <img src="/assets/img/{{plugin.logo}}" class="inline-icon"/>
+              <img src="{{ baseurl }}/assets/img/{{plugin.logo}}" class="inline-icon"/>
               <div class="vertical">
                   <h4 class="subtitle3">{{ plugin.platform }}</h4>
                   <h3 class="subtitle2">{{ plugin.title }}</h3>
