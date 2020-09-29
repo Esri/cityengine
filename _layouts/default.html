@@ -18,7 +18,7 @@
         <div class="horizontal stretched">
           {% for plugin in site.plugins %}
             {% if plugin.draft == false %}
-              <a class="subnav-link vertical center" href="{{plugin.name}}"><p class="white">{{plugin.platform}}</p></a>
+              <a class="subnav-link vertical center" href="{{ plugin.name | relative_url }}"><p class="white">{{plugin.platform}}</p></a>
             {% endif %}
           {% endfor %}
         </div>
