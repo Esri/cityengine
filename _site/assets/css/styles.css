@@ -74,7 +74,8 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 
 .image-shadow { width: 100%; box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.3); margin-bottom: 40px; }
 
-.hero { height: 55vh; background: #ffffff; /*  background: $darkblue; background: linear-gradient(90deg, rgba(0,121,193,1) 0%, rgba(57,78,238,1) 100%); */ }
+.hero { height: 55vh; background: #ffffff; /*  background: $darkblue; background: linear-gradient(90deg, rgba(0,121,193,1) 0%, rgba(57,78,238,1) 100%);
+*/ }
 
 .hero-text { color: rgba(50, 50, 50, 0.95); margin: 0; }
 
@@ -119,5 +120,3 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 .file { height: 80px; min-width: 60px; margin-bottom: 5px; background-image: url(../img/file.png); background-size: contain; background-repeat: no-repeat; }
 
 .file p { margin: 0; padding-top: 3px; text-transform: uppercase; }
-
-/*# sourceMappingURL=styles.css.map */
