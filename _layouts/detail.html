@@ -19,7 +19,7 @@
         <div class="horizontal stretched">
           {% for plugin in site.plugins %}
             {% if plugin.draft == false %}
-              <a class="subnav-link vertical center  {% if plugin.name == page.name%}active{% endif %}" href="{{plugin.name}}"><p class="white">{{plugin.platform}}</p></a>
+              <a class="subnav-link vertical center  {% if plugin.name == page.name%}active{% endif %}" href="{{plugin.name | relative_url }}"><p class="white">{{plugin.platform}}</p></a>
             {% endif %}
           {% endfor %}
         </div>
@@ -79,7 +79,7 @@
           <div class="content horizontal bottom-margin-100">
               <div class="half vertical">
                 {% for item in item.images %}
-                  <img class="image-shadow" src="../../assets/img/{{item.image-name}}"/>
+                  <img class="image-shadow" src="../../assets/img/{{item.image-name | relative_url }}"/>
                 {% endfor %}
               </div>
               <div class="half vertical">
