@@ -45,16 +45,17 @@ related-topic-3-link: asdf3
   <div class="content vertical center">
     <h2 class="subtitle bottom-margin-70">CityEngine Plugins</h2>
     <div class="horizontal center">
-      {% for plugin in site.plugins %}
-        {% if plugin.draft == false %}
-          {% if plugin.fullpreview == false %}
+      {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
+      {% for item in pluginsinorder %}
+        {% if item.draft == false %}
+          {% if item.fullpreview == false %}
           <div class="horizontal small-teaser">
-              <img src="{{ site.baseurl }}/assets/img/{{plugin.logo}}" class="inline-icon"/>
+              <img src="{{ site.baseurl }}/assets/img/{{item.logo}}" class="inline-icon"/>
               <div class="vertical">
-                  <h4 class="subtitle3">{{ plugin.platform }}</h4>
-                  <h3 class="subtitle2">{{ plugin.title }}</h3>
-                  <a class="link" href="{{ plugin.link }}">
-                      <a href="{{plugin.name}}" class="text-small">
+                  <h4 class="subtitle3">{{ item.platform }}</h4>
+                  <h3 class="subtitle2">{{ item.title }}</h3>
+                  <a class="link" href="{{ item.link }}">
+                      <a href="{{item.name}}" class="text-small">
                           More<span> →</span>
                       </a>
                   </a>
@@ -70,22 +71,23 @@ related-topic-3-link: asdf3
 <section>
   <div class="content flex vertical center">
     <div flex horizontal>
-    {% for plugin in site.plugins %}
-      {% if plugin.draft == false %}
-        {% if plugin.fullpreview == true %}
+    {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
+    {% for item in pluginsinorder %}
+      {% if item.draft == false %}
+        {% if item.fullpreview == true %}
         <div class="content {% cycle '', 'reverse' %} horizontal bottom-margin-100">
             <div class="half">
-                <img class="image-shadow" src="{{ site.baseurl }}/assets/img/{{plugin.teaser-image}}"/>
+                <img class="image-shadow" src="{{ site.baseurl }}/assets/img/{{item.teaser-image}}"/>
             </div>
             <div class="half vertical">
                 <div class="horizontal">
-                    <img src="{{ site.baseurl }}/assets/img/{{plugin.logo}}" class="inline-icon"/>
+                    <img src="{{ site.baseurl }}/assets/img/{{item.logo}}" class="inline-icon"/>
                     <div class="vertical">
-                        <h4 class="subtitle3">{{plugin.platform}}</h4>
-                        <h3 class="subtitle">{{plugin.name}}</h3>
+                        <h4 class="subtitle3">{{item.platform}}</h4>
+                        <h3 class="subtitle">{{item.name}}</h3>
                     </div>
                 </div>
-                <p>{{plugin.description}}</p>
+                <p>{{item.description}}</p>
                 <a class="link">
                     <p class="link text">
                         More<span> →</span>
