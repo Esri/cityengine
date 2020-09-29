@@ -79,7 +79,7 @@ related-topic-3-link: asdf3
             </div>
             <div class="half vertical">
                 <div class="horizontal">
-                    <img src="/assets/img/{{{{ site.baseurl }}plugin.logo}}" class="inline-icon"/>
+                    <img src="/assets/img/{{plugin.logo | relative_url }}" class="inline-icon"/>
                     <div class="vertical">
                         <h4 class="subtitle3">{{plugin.platform}}</h4>
                         <h3 class="subtitle">{{plugin.name}}</h3>
