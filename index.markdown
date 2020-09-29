@@ -75,11 +75,11 @@ related-topic-3-link: asdf3
         {% if plugin.fullpreview == true %}
         <div class="content {% cycle '', 'reverse' %} horizontal bottom-margin-100">
             <div class="half">
-                <img class="image-shadow" src="/assets/img/{{plugin.teaser-image}}"/>
+                <img class="image-shadow" src="{{ site.baseurl }}/assets/img/{{plugin.teaser-image}}"/>
             </div>
             <div class="half vertical">
                 <div class="horizontal">
-                    <img src="/assets/img/{{plugin.logo}}" class="inline-icon"/>
+                    <img src="/assets/img/{{{{ site.baseurl }}plugin.logo}}" class="inline-icon"/>
                     <div class="vertical">
                         <h4 class="subtitle3">{{plugin.platform}}</h4>
                         <h3 class="subtitle">{{plugin.name}}</h3>

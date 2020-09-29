@@ -79,7 +79,7 @@
           <div class="content horizontal bottom-margin-100">
               <div class="half vertical">
                 {% for item in item.images %}
-                  <img class="image-shadow" src="../../assets/img/{{item.image-name | relative_url }}"/>
+                  <img class="image-shadow" src="{{ site.baseurl }}/assets/img/{{item.image-name}}"/>
                 {% endfor %}
               </div>
               <div class="half vertical">
