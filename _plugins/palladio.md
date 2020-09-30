@@ -2,7 +2,7 @@
 layout: detail
 fullpreview: false
 order-of-appearance: 2
-draft: true
+draft: false
 
 name: Palladio
 platform: Houdini
