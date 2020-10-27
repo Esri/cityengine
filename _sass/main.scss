@@ -1,5 +1,6 @@
 $white: #ffffff;
 $blue: #0079c1;
+$lightblue: #49b0f2;
 $darkblue: #394eee;
 $darkgrey: rgba(50, 50, 50, 0.95);
 $font: #4c4c4c;
@@ -8,7 +9,7 @@ $lightgrey: #f4f4f4;
 body{
   margin:0;
   padding:0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section{
@@ -122,7 +123,7 @@ nav{
       color: $darkblue;
     }
 
-    .subnav-title{ 
+    .subnav-title{
       font-size: 20px;
       font-weight: 300;
     }
@@ -238,6 +239,10 @@ nav{
 .hero{
   height: 55vh;
   background: $white;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 /*  background: $darkblue;
   background: linear-gradient(90deg, rgba(0,121,193,1) 0%, rgba(57,78,238,1) 100%);
 */
@@ -347,6 +352,10 @@ nav{
 
 .white{
   color: $white;
+}
+
+.lightblue{
+  color: $lightblue;
 }
 
 .download{

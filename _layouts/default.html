@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="horizontal center">
@@ -25,6 +26,113 @@
         </div>
       </div>
     </div>
-      {{ content }}
+
+    <section class="hero">
+      <div class="content">
+        <div class="left-column horizontal center">
+          <h1 class="hero-text">{{ page.hero-text }}</h1>
+        </div>
+        <div class="half">
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-section">
+      <div class="content">
+        <div class="left-column">
+          <p class="white">{{ page.description }}</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lightgrey">
+      <div class="content vertical center">
+        <h2 class="subtitle bottom-margin-70">CityEngine Plugins</h2>
+        <div class="horizontal center">
+          {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
+          {% for item in pluginsinorder %}
+            {% if item.draft == false %}
+              {% if item.fullpreview == false %}
+              <div class="horizontal small-teaser">
+                  <img src="{{ site.baseurl }}/assets/img/{{item.logo}}" class="inline-icon"/>
+                  <div class="vertical">
+                      <h4 class="subtitle3">{{ item.platform }}</h4>
+                      <h3 class="subtitle2">{{ item.title }}</h3>
+                      <a class="link" href="{{ item.link }}">
+                          <a href="{{item.name}}" class="text-small">
+                              More<span> →</span>
+                          </a>
+                      </a>
+                  </div>
+              </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="content flex vertical center">
+        <div flex horizontal>
+        {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
+        {% for item in pluginsinorder %}
+          {% if item.draft == false %}
+            {% if item.fullpreview == true %}
+            <div class="content {% cycle '', 'reverse' %} horizontal bottom-margin-100">
+                <div class="half">
+                    <img class="image-shadow" src="{{ site.baseurl }}/assets/img/{{item.teaser-image}}"/>
+                </div>
+                <div class="half vertical">
+                    <div class="horizontal">
+                        <img src="{{ site.baseurl }}/assets/img/{{item.logo}}" class="inline-icon"/>
+                        <div class="vertical">
+                            <h4 class="subtitle3">{{item.platform}}</h4>
+                            <h3 class="subtitle">{{item.name}}</h3>
+                        </div>
+                    </div>
+                    <p>{{item.description}}</p>
+                    <a class="link">
+                        <p class="link text">
+                          <a href="{{item.name}}">
+                              More<span> →</span>
+                          </a>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="darkgrey">
+      <div class="content horizontal">
+        <div class="third">
+          <h3 class="subtitle4 white">{{page.related-topic-1-title}}</h3>
+          <p class="white">{{page.related-topic-1-text}}</p>
+          <a href="related-topic-1-link" class="lightblue">More<span> →</span></a>
+        </div>
+        <div class="third">
+          <h3 class="subtitle4 white">{{page.related-topic-2-title}}</h3>
+          <p class="white">{{page.related-topic-2-text}}</p>
+          <a href="related-topic-2-link" class="lightblue">More<span> →</span></a>
+        </div>
+        <div class="third">
+          <h3 class="subtitle4 white">{{page.related-topic-3-title}}</h3>
+          <p class="white">{{page.related-topic-3-text}}</p>
+          <a href="related-topic-3-link" class="lightblue">More<span> →</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="content">
+        <h2 class="subtitle bottom-margin-30">{{ page.legal-title }}</h2>
+        <p>{{page.legal-text}}</p>
+      </div>
+    </section>
   </body>
 </html>
