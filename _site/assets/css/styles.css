@@ -4,7 +4,7 @@ section { padding: 100px 0; }
 
 h1 { color: rgba(50, 50, 50, 0.95); font-size: 75px; line-height: 90px; font-weight: 100; }
 
-p, ul, li { margin: 16px 0; padding: 0; font-size: 16px; line-height: 24px; font-weight: 100; color: rgba(50, 50, 50, 0.95); }
+p, ul, li { margin: 16px 0; padding: 0; font-size: 16px; line-height: 24px; font-weight: 300; color: rgba(50, 50, 50, 0.95); }
 
 li { margin-top: 0; margin-bottom: 5px; }
 
@@ -99,7 +99,7 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 
 .subtitle3 { color: #858585; margin: 0px; padding: 0px; font-size: 15px; font-weight: 400; }
 
-.subtitle4 { font-size: 22px; font-weight: 100; margin: 0; padding: 0; }
+.subtitle4 { font-size: 22px; font-weight: 300; margin: 0; padding: 0; }
 
 .link { color: #0079c1; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; }
 
