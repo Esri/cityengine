@@ -58,7 +58,7 @@
                   <div class="vertical">
                       <h4 class="subtitle3">{{ item.platform }}</h4>
                       <h3 class="subtitle2">{{ item.title }}</h3>
-                      <a class="link" href="{{ item.link }}">
+                      <a class="link" href="{{ item.link | downcase }}">
                           <a href="{{item.name}}" class="text-small">
                               More<span> →</span>
                           </a>
@@ -94,7 +94,7 @@
                     <p>{{item.description}}</p>
                     <a class="link">
                         <p class="link text">
-                          <a href="{{item.name}}">
+                          <a href="{{item.name | downcase }}">
                               More<span> →</span>
                           </a>
                         </p>
