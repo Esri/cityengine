@@ -1,6 +1,6 @@
 ---
 layout: detail
-fullpreview: false
+fullpreview: true
 order-of-appearance: 2
 draft: false
 
