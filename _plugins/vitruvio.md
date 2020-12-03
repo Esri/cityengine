@@ -2,7 +2,7 @@
 layout: detail
 fullpreview: false
 order-of-appearance: 3
-draft: true
+draft: false
 
 name: Vitruvio
 platform: Unreal Engine

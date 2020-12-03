@@ -1,7 +1,7 @@
 ---
 layout: detail
 fullpreview: false
-order-of-appearance: 1
+order-of-appearance: 2
 draft: false
 
 name: Serlio

@@ -1,7 +1,7 @@
 ---
 layout: detail
 fullpreview: false
-order-of-appearance: 2
+order-of-appearance: 1
 draft: false
 
 name: Palladio
