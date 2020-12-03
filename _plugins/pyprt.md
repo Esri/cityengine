@@ -5,7 +5,7 @@ order-of-appearance: 4
 draft: false
 
 name: PyPrt
-platform: Phyton
+platform: Python
 logo: pyprt.png
 
 teaser-image: pyprt-teaser-image.jpg
