@@ -32,7 +32,7 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 
 .nav-link:hover { color: #222; opacity: 1; box-shadow: #0079c1 0 -3px 0 0 inset; }
 
-.subnav { top: 0px; position: sticky; height: 59px; border-bottom: 1px solid rgba(50, 50, 50, 0.95); }
+.subnav { top: -1px; position: sticky; height: 59px; border-bottom: 1px solid rgba(50, 50, 50, 0.95); }
 
 .subnav-title-link { color: #ffffff; padding: 0 20px 0 8px; }
 
