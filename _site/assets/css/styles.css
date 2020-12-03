@@ -18,7 +18,7 @@ ul { padding-left: 20px; margin-top: 0; margin-bottom: 0; }
 
 .button:hover { border-radius: 0; border: none; color: rgba(50, 50, 50, 0.95); background: #f4f4f4; font-size: 16px; }
 
-nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 20px; justify-content: start; border-bottom: 2px solid #ffffff; }
+nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 20px; justify-content: space-between; border-bottom: 2px solid #ffffff; }
 
 .logo { padding-left: 8px; padding-right: 32px; padding-top: 4px; opacity: 0.8; }
 
@@ -57,8 +57,6 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 .center { align-items: center; }
 
 .stretched { align-items: stretch; }
-
-.spaced { justify-content: space-between; }
 
 .intro-section { padding: 32px 0; background-color: #394eee; color: #ffffff; }
 

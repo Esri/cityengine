@@ -77,7 +77,7 @@ nav{
   width: 1440px;
   max-width: 96vw;
   padding: 0 20px;
-  justify-content: start;
+  justify-content: space-between;
   border-bottom: 2px solid $white;
 }
 
@@ -182,10 +182,6 @@ nav{
 
 .stretched{
   align-items: stretch;
-}
-
-.spaced{
-  justify-content: space-between;
 }
 
 .intro-section{
