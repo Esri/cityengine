@@ -4,8 +4,8 @@ fullpreview: true
 order-of-appearance: 5
 draft: false
 
-name: SDK
-platform: CityEngine
+name: C++
+platform: CityEngine SDK
 logo: sdk.png
 
 teaser-image: sdk-teaser-image.jpg
