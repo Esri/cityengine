@@ -5,7 +5,7 @@ order-of-appearance: 3
 draft: false
 
 name: Vitruvio
-platform: Unreal Engine
+platform: Unreal
 logo: vitruvio.png
 
 teaser-image: pyprt-teaser-image.jpg
