@@ -126,3 +126,5 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 .file { height: 80px; min-width: 60px; margin-bottom: 5px; background-image: url(../img/file.png); background-size: contain; background-repeat: no-repeat; }
 
 .file p { margin: 0; padding-top: 3px; text-transform: uppercase; }
+
+.footer { padding: 0; }
