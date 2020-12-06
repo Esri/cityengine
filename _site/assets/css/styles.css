@@ -67,6 +67,7 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 2
 .intro-section p { margin: 0; font-size: 20px; line-height: 28px; }
 
 .two-columns { margin: 0; column-count: 2; column-gap: 40px; column-fill: auto; text-align: justify; }
+.two-columns p { margin-top: 0px; }
 
 .left-column { width: 50%; height: 100%; padding-left: 8px; padding-right: 20px; }
 
