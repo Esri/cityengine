@@ -84,11 +84,11 @@
             {% if item.fullpreview == true %}
             <div class="content {% cycle '', 'reverse' %} horizontal bottom-margin-100">
                 <div class="half vertical just-centered">
-                    <img class="image-shadow" src="{{ site.url }}/assets/img/{{item.teaser-image}}"/>
+                    <img class="image-shadow" src="{{ site.url | relative_url }}/assets/img/{{item.teaser-image}}"/>
                 </div>
                 <div class="half vertical just-centered">
                     <div class="horizontal">
-                        <img src="{{ site.url }}/assets/img/{{item.logo}}" class="inline-icon"/>
+                        <img src="{{ site.url | relative_url }}/assets/img/{{item.logo}}" class="inline-icon"/>
                         <div class="vertical">
                             <h4 class="subtitle3">{{item.platform}}</h4>
                             <h3 class="subtitle">{{item.name}}</h3>
