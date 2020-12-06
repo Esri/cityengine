@@ -7,6 +7,7 @@ draft: false
 name: Serlio
 platform: Maya
 logo: serlio.png
+github: https://github.com/Esri/serlio
 
 teaser-image: pyprt-teaser-image.jpg
 

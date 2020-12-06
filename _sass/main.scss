@@ -177,11 +177,38 @@ nav{
   display: flex;
 }
 
+
+.left-column{
+  width: 50%;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 20px;
+}
+
+.half {
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.third {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex;
+    width: 33%;
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
 .vertical {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .horizontal {
@@ -194,6 +221,14 @@ nav{
 
 .center{
   align-items: center;
+}
+
+.just-centered{
+  justify-content: center;
+}
+
+.spaced{
+  justify-content: space-between;
 }
 
 .stretched{
@@ -225,40 +260,15 @@ nav{
 }
 
 
-.left-column{
-  width: 50%;
-  height: 100%;
-  padding-left: 8px;
-  padding-right: 20px;
-}
-
-.half {
-    justify-content: flex-start;
-    width: 50%;
-    padding: 0 20px;
-}
-
-.third {
-    flex-direction: column;
-    display: flex;
-    justify-content: flex;
-    width: 33%;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
 
 .image-shadow {
     width: 100%;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.3);
-    margin-bottom: 40px;
 }
 
 .hero{
   height: 55vh;
+  width: 100vw;
   background: $white;
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -359,8 +369,16 @@ nav{
     margin-top: 2px;
 }
 
+.top-padding-150{
+  padding-top: 150px;
+}
+
 .bottom-margin-30{
   margin-bottom: 30px;
+}
+
+.bottom-margin-40{
+  margin-bottom: 40px;
 }
 
 .bottom-margin-70{
@@ -377,6 +395,13 @@ nav{
 
 .lightblue{
   color: $lightblue;
+}
+
+.icon-ui-svg{
+  max-height: 64px;
+  max-width: 64px;
+  fill: $blue;
+  margin-bottom: 20px;
 }
 
 .download{

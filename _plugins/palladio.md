@@ -7,6 +7,7 @@ draft: false
 name: Palladio
 platform: Houdini
 logo: palladio.png
+github: https://github.com/Esri/palladio
 
 teaser-image: pyprt-teaser-image.jpg
 
