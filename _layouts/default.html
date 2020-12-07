@@ -16,8 +16,8 @@
 
     <div class="subnav darkgrey">
       <div class="subnav-wrapper horizontal stretched">
-        <a class="subnav-title-link vertical center" href="{{ '/' | relative_url }}"><h2 class="subnav-title">CityEngine Plugins & APIs</h2></a>
-        <div class="horizontal stretched">
+        <a class="subnav-title-link vertical " href="{{ '/' | relative_url }}"><h2 class="subnav-title">CityEngine Plugins & APIs</h2></a>
+        <div class="horizontal stretched subnav-link-wrapper">
           {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
           {% for item in pluginsinorder %}
             {% if item.draft == false %}

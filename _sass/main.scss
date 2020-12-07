@@ -196,8 +196,17 @@ nav{
     display: flex;
     justify-content: flex;
     width: 33%;
-    padding-right: 40px;
-    padding-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.two-third {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex;
+    width: 66%;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .reverse {
@@ -267,8 +276,7 @@ nav{
 }
 
 .hero{
-  height: 55vh;
-  width: 100vw;
+  min-height: 55vh;
   background: $white;
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -428,4 +436,65 @@ nav{
 
 .footer{
   padding: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .horizontal:not(nav){
+    flex-direction: column;
+  }
+
+  .subnav{
+    background-color: $darkgrey;
+    height: 100%;
+  }
+
+  .subnav-wrapper{
+    padding: 0;
+  }
+
+  .subnav-link-wrapper{
+    display: none;
+  }
+
+  .content{
+    padding: 0;
+  }
+
+  .image-shadow{
+    max-width: 95%;
+  }
+
+  .left-column{
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 20px;
+  }
+
+  .half {
+      justify-content: flex-start;
+      width: 100%;
+      padding: 0 20px;
+  }
+
+  .third {
+      width: 100%;
+  }
+
+  .two-third {
+      width: 100%;
+  }
+
+  .reverse {
+      flex-direction: row;
+  }
+
+  .two-columns{
+    column-count: 1;
+  }
+
+  .third{
+    margin-bottom: 100px;
+  }
 }
