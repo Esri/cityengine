@@ -91,7 +91,7 @@ nav{
   height:55px;
   margin: 0 auto;
   width: 1440px;
-  max-width: 96vw;
+  max-width: calc(100% - 40px);
   padding: 0 20px;
   justify-content: space-between;
   border-bottom: 2px solid $white;
@@ -379,6 +379,10 @@ nav{
 
 .top-padding-150{
   padding-top: 150px;
+}
+
+.bottom-margin-10{
+  margin-bottom: 10px;
 }
 
 .bottom-margin-30{

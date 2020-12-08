@@ -52,7 +52,7 @@
           <p>For Houdini</p>
         </div>
         <div class="two-third vertical just-centered">
-          <img class="image-shadow" src="http://localhost:4000/assets/img/pyprt-teaser-image.jpg"/>
+          <img class="image-shadow" src="http://localhost:4000/assets/img/palladio_ex_5_1.jpg"/>
         </div>
       </div>
     </section>
@@ -134,6 +134,91 @@
           <h2 class="subtitle bottom-margin-70 ">Examples</h2>
         </div>
         <div flex horizontal>
+        
+          <div class="content horizontal bottom-margin-100">
+              <div class="half vertical">
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_1_1.jpg"/>
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_1_2.jpg"/>
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_1_3.jpg"/>
+                
+              </div>
+              <div class="half vertical">
+                  <h3 class="subtitle4">Angkor Thom</h3>
+                  <p class="">This example includes full CityEngine and Houdini projects. It demonstrates how to use CityEngine to author procedural assets like Walls, Stairs, Porticos and combine them in Houdini via Palladio and Rule Packages. The scene consists of three major steps:</br></br><ul><li>The "/obj/PALLADIO_BASE" geometry node generates the various CityEngine Rules via Palladio and assigns them to multiple outputs.</li><li>Multiple "/obj/process_palladio_xxx" nodes reference above outputs, apply a stone weathering effect and cache out the geometry.</li><li>The "/obj/creepers_xxx" nodes apply some creeper plant effects.</li></ul></br></br>How to change one of the rule attribute values:</br></br></br><ul><li>Activate the "render" flag of the "OUT_columnRowWithBeams" node in PALLADIO_BASE.</li><li>Find "attribcreate3" above the out node and change the value of "Total_Height", the model will regenerate.</li><li>Go to "process_palladio_columnRowWithBeams" and render "file1", will take a while.</li><li>Set the "render" flag back to "uvtransform1" and click "reload geometry" on "file2"."</li><li>Repeat the previous step for the file nodes in "creepers_columnRowWithBeams".</li></ul></br></br>Notes:</br></br><ul><li>Created by Matthias Buehler</li><li>Also covered in "Digital Production" Issue 05/18 (Article in German).</li><li>Update 2 on 2019-06-27&colon; Fixed wrong RPK path and "creepers" input references.</li><li>Known issue&colon; warning in 17.5 regarding "hair generate" node at scene open (internal Houdini problem).</li></ul></br></br>Downloads&colon;</p>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.6.0/Palladio_Example_Angkor_Thom_v2.zip"><span>→ </span>Houdini and CityEngine projects</a>
+                  
+              </div>
+          </div>
+        
+          <div class="content horizontal bottom-margin-100">
+              <div class="half vertical">
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_2_1.jpg"/>
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_2_2.png"/>
+                
+              </div>
+              <div class="half vertical">
+                  <h3 class="subtitle4">Favela</h3>
+                  <p class="">The Favela example demonstrates the packaging of a complex Rule Package into a Houdini Digital Asset with custom high-level parameters. The provided Houdini scene additionally shows how to prepare the input geometry for Palladio out of an Alembic archive (setup of random seed and start rule).</br></br>Notes:</br><ul><li>Requires Houdini 17.5 and Palladio 1.6.1 or later.</li><li>Based on the original "Favela" project (YouTube) created with CityEngine, Maya and Maxwell.</li><li>Created by Matthias Buehler</li></ul></br></br>Downloads&colon;</p>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.6.1/favela_houdini_project_v1.zip"><span>→ </span>Houdini Project</a>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.6.0/FAVELA.rpk"><span>→ </span>Favela RPK</a>
+                  
+              </div>
+          </div>
+        
+          <div class="content horizontal bottom-margin-100">
+              <div class="half vertical">
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_3_1.png"/>
+                
+              </div>
+              <div class="half vertical">
+                  <h3 class="subtitle4">CityEngine Material Handling (MANTRA)</h3>
+                  <p class="">This example shows how to use the generated CityEngine material attributes with Mantra.</br></br>Downloads&colon;</p>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.4.0/PalladioDemo03.zip"><span>→ </span>Houdini Scene (HIPNC)</a>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.6.1/PalladioCityEngineMaterial-v2.hdanc"><span>→ </span>Houdini Digital Asset (HDANC)</a>
+                  
+              </div>
+          </div>
+        
+          <div class="content horizontal bottom-margin-100">
+              <div class="half vertical">
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_4_1.jpg"/>
+                
+              </div>
+              <div class="half vertical">
+                  <h3 class="subtitle4">Computer Case Graveyard</h3>
+                  <p class="">Downloads&colon;</p>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.1/PalladioDemo02.zip"><span>→ </span>Houdini Scene (HIPNC)</a>
+                  
+              </div>
+          </div>
+        
+          <div class="content horizontal bottom-margin-100">
+              <div class="half vertical">
+                
+                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/palladio_ex_5_1.jpg"/>
+                
+              </div>
+              <div class="half vertical">
+                  <h3 class="subtitle4">Palladio Basic Use Case</h3>
+                  <p class="">Downloads&colon;</p>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/palladio/releases/download/v1.0/PalladioDemo01.zip"><span>→ </span>Houdini Scene (HIPNC)</a>
+                  
+              </div>
+          </div>
         
         </div>
       </div>

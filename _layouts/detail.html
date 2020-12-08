@@ -135,7 +135,9 @@
               <div class="half vertical">
                   <h3 class="subtitle4">{{item.title}}</h3>
                   <p class="">{{item.text}}</p>
-                  <a class="link">Download Example<span> →</span></a>
+                  {% for item in item.files %}
+                    <a class="link bottom-margin-10" href="{{ item.link }}"><span>→ </span>{{ item.title }}</a>
+                  {% endfor %}
               </div>
           </div>
         {% endfor %}
