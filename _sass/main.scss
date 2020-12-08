@@ -23,6 +23,15 @@ h1{
   font-weight: 100;
 }
 
+h2{
+  padding: 0 20px;
+  text-align: left;
+}
+
+h3{
+  text-align: left;
+}
+
 p, ul, li{
   margin: 16px 0;
   padding: 0;
@@ -181,8 +190,7 @@ nav{
 .left-column{
   width: 50%;
   height: 100%;
-  padding-left: 8px;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 
 .half {
@@ -262,13 +270,16 @@ nav{
   column-gap: 40px;
   column-fill: auto;
   text-align: justify;
+  padding: 0 20px;
 
   p{
     margin-top:0px;
   }
 }
 
-
+.logo-title{
+  display: flex;
+}
 
 .image-shadow {
     width: 100%;
@@ -325,9 +336,8 @@ nav{
 }
 
 .inline-icon {
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
     max-width: 80px;
-    max-height: 80px;
 }
 
 .subtitle {
@@ -336,7 +346,7 @@ nav{
     font-weight: 400;
     margin: 0px;
     line-height: 54px;
-    text-align: center;
+    text-align: left;
 }
 
 .subtitle2 {
@@ -467,6 +477,7 @@ nav{
 
   .image-shadow{
     max-width: 95%;
+    margin-bottom: 20px;
   }
 
   .left-column{
@@ -500,5 +511,9 @@ nav{
 
   .third{
     margin-bottom: 100px;
+  }
+
+  .example{
+    flex-direction: column-reverse;
   }
 }

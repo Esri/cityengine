@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <section class="hero">
+    <section class="hero vertical just-centered">
       <div class="content horizontal">
         <div class="half vertical">
           <h1 class="hero-text">{{ page.hero-text }}</h1>
@@ -87,7 +87,7 @@
                     <img class="image-shadow" src="{{ site.url | relative_url }}/assets/img/{{item.teaser-image}}"/>
                 </div>
                 <div class="half vertical just-centered">
-                    <div class="horizontal">
+                    <div class="logo-title">
                         <img src="{{ site.url | relative_url }}/assets/img/{{item.logo}}" class="inline-icon"/>
                         <div class="vertical">
                             <h4 class="subtitle3">{{item.platform}}</h4>
@@ -136,7 +136,7 @@
         <h2 class="subtitle bottom-margin-30 ">{{ page.legal-title }}</h2>
       </div>
       <div class="content">
-        <p>{{page.legal-text}}</p>
+        <p class="two-columns">{{page.legal-text}}</p>
       </div>
     </section>
   </body>

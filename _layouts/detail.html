@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <section class="hero">
+    <section class="hero vertical just-centered">
       <div class="content horizontal">
         <div class="third vertical just-centered">
           <h1 class="hero-text">{{ page.name }}</h1>
@@ -60,7 +60,7 @@
 
     <section class="lightgrey">
       <div class="content vertical">
-        <h2 class="subtitle bottom-margin-70">Downloads and ressources</h2>
+        <h2 class="subtitle bottom-margin-70">Downloads and Ressources</h2>
       </div>
       <div class="content horizontal">
         <div class="third">
@@ -120,13 +120,11 @@
      -->
 
     <section>
-      <div class="content flex vertical center">
-        <div class="content vertical">
-          <h2 class="subtitle bottom-margin-70 ">Examples</h2>
-        </div>
+      <div class="content flex vertical">
+        <h2 class="subtitle bottom-margin-70 ">Examples</h2>
         <div flex horizontal>
         {% for item in page.examples %}
-          <div class="content horizontal bottom-margin-100">
+          <div class="horizontal bottom-margin-100 example">
               <div class="half vertical">
                 {% for item in item.images %}
                   <img class="image-shadow bottom-margin-30" src="{{ site.url | relative_url }}/assets/img/{{item.image-name}}"/>
@@ -150,7 +148,7 @@
         <h2 class="subtitle bottom-margin-30 ">Licensing</h2>
       </div>
       <div class="content vertical center">
-        <p>{{ page.legal }}</p>
+        <p class="two-columns">{{ page.legal }}</p>
         </div>
       </div>
     </section>
