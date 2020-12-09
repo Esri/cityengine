@@ -45,14 +45,20 @@
     </div>
 
     <section class="hero vertical just-centered">
-      <div class="content horizontal">
+      <div class="content horizontal flex-grow">
         <div class="third vertical just-centered">
           <h1 class="hero-text">Serlio</h1>
           <div class="divider"></div>
-          <p>For Maya</p>
+          <p>Procedural Runtime for Maya</p>
         </div>
-        <div class="two-third vertical just-centered">
-          <img class="image-shadow" src="http://localhost:4000/assets/img/serlio_ex_1_3.png"/>
+        <div class="two-third horizontal just-centered aspect">
+          
+          
+          
+            <img class="image-shadow" src="http://localhost:4000/assets/img/serlio_ex_1_3.png"/>
+          
+          
+          <!---->
         </div>
       </div>
     </section>
@@ -68,6 +74,17 @@
     <section>
       <div class="content vertical">
         <h2 class="subtitle bottom-margin-70">About Serlio</h2>
+        <div class="gallery horizontal">
+          
+          <div class="third">
+            <img class="image-shadow" src="http://localhost:4000/assets/img/serlio_ex_1_2.png"/>
+          </div>
+          
+          <div class="third">
+            <img class="image-shadow" src="http://localhost:4000/assets/img/serlio_ex_1_1.png"/>
+          </div>
+          
+        </div>
         <div class="two-columns">
             <p>Complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow. Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production. </br>Serlio requires so-called rule packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Serlio.</br> Serlio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Serlio is restricted to the procedural generation of single buildings / objects. Serlio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from (or based on geographic data) is still needed.</p>
         </div>
@@ -96,12 +113,12 @@
           <a href="related-topic-2-link" class="lightblue">Read documentation<span> →</span></a>
         </div>
         <div class="third">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon-ui-svg" viewBox="0 0 32 32">
-            <path d="M19 14h-9v-1h9zm-7 4h5v-1h-5zM6.833 2H29v24h-3v4H7.5A4.505 4.505 0 0 1 3 25.5v-21C3 3.098 4.684 2 6.833 2zM25 7H6.834A4.943 4.943 0 0 1 4 6.2v19.3A3.504 3.504 0 0 0 7.5 29H25zm3-4H6.834C5.164 3 4 3.79 4 4.5S5.164 6 6.833 6H26v19h2z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" class="ui-svg" viewBox="0 0 32 32">
+            <path d="M10.687,26.624h0A13.29,13.29,0,0,1,.5,13.764,13.061,13.061,0,0,1,4.455,4.385a13.67,13.67,0,0,1,19.091,0A13.061,13.061,0,0,1,27.5,13.764,13.3,13.3,0,0,1,17.4,26.6V21.37a3.334,3.334,0,0,0-.571-1.873,12.076,12.076,0,0,0,1.575-.323,7.734,7.734,0,0,0,1.509-.589,5.751,5.751,0,0,0,.6-.366,4.947,4.947,0,0,0,.512-.411,4.31,4.31,0,0,0,.427-.453,4.394,4.394,0,0,0,.35-.49,4.943,4.943,0,0,0,.49-1.083,8.148,8.148,0,0,0,.33-2.484,5.93,5.93,0,0,0-.139-1.284,5.518,5.518,0,0,0-1.244-2.451,5.15,5.15,0,0,0-.155-3.58,1.966,1.966,0,0,0-.267-.015A5.518,5.518,0,0,0,17.446,7.34,13.325,13.325,0,0,0,14,6.922a13.284,13.284,0,0,0-3.479.427,5.642,5.642,0,0,0-3.5-1.367H6.951a5.148,5.148,0,0,0-.168,3.544,5.649,5.649,0,0,0-.861,1.29,5.586,5.586,0,0,0-.414,1.2A5.93,5.93,0,0,0,5.369,13.3a8.148,8.148,0,0,0,.33,2.484,4.943,4.943,0,0,0,.49,1.083,4.4,4.4,0,0,0,.35.49,4.31,4.31,0,0,0,.427.453,4.947,4.947,0,0,0,.512.411,5.751,5.751,0,0,0,.6.366,7.734,7.734,0,0,0,1.509.589,12.229,12.229,0,0,0,1.658.334,3.339,3.339,0,0,0-.562,1.818,4.877,4.877,0,0,1-1.615.4c-.047,0-.092,0-.135-.006a3.2,3.2,0,0,1-2.407-1.8A2.231,2.231,0,0,0,4.653,18.9a.812.812,0,0,0-.547.14.139.139,0,0,0-.034.111c.021.16.3.357.568.548a4.526,4.526,0,0,1,.39.3A5.321,5.321,0,0,1,6.2,21.9a3.181,3.181,0,0,0,2.736,1.474,10.3,10.3,0,0,0,1.749-.2v3.446Z"/>
           </svg>
-          <h3 class="subtitle4">Other Ressources</h3>
-          <p>Make sure to check our CityEngine ressources page to discover more usefull ressources.</p>
-          <a href="related-topic-3-link" class="lightblue">Discover resources<span> →</span></a>
+          <h3 class="subtitle4">Github</h3>
+          <p>For more information, assets and ressources check our Github repository for Serlio</p>
+          <a href="related-topic-3-link" class="lightblue">Go to Github<span> →</span></a>
         </div>
       </div>
 
@@ -111,27 +128,6 @@
       <div class="content vertical center">
         <h2 class="subtitle bottom-margin-70">Downloads</h2>
         <div class="horizontal center">
-          
-            <a class="download vertical center">
-              <div class="file vertical center">
-                <p></p>
-              </div>
-              <p>file.file</p>
-            </a>
-          
-            <a class="download vertical center">
-              <div class="file vertical center">
-                <p></p>
-              </div>
-              <p>file.file</p>
-            </a>
-          
-            <a class="download vertical center">
-              <div class="file vertical center">
-                <p></p>
-              </div>
-              <p>file.file</p>
-            </a>
           
         </div>
         </div>
@@ -159,20 +155,34 @@
                 
                   <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/serlio_ex_1_1.png"/>
                 
-                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/serlio_ex_1_2.png"/>
-                
-                  <img class="image-shadow bottom-margin-30" src="http://localhost:4000/assets/img/serlio_ex_1_3.png"/>
-                
               </div>
               <div class="half vertical">
                   <h3 class="subtitle4">Favela Maya Project</h3>
-                  <p class="">The Favela example demonstrates how a complex CityEngine Rule Package (RPK) is applied on one or more polygons. The provided Maya project includes an Alembic file with shapes from CityEngine, the Favela RPK itself and Maya scenes.</br></br><strong>Guide:</strong><ul><li>Call "File | Set Project..." and set it to the downloaded Favela Maya project (otherwise Serlio will not find the Favela RPK).</li><li>Open one of the two provided Maya scenes, this will immediately trigger the generation of the Favela model - it might take a while to load the RPK on the first time after starting Maya.</li></ul> </br></br><strong>Notes:</strong><ul><li>Requires Maya 2018 or later. </li><li>Based on the <a href="https://www.youtube.com/watch?v=IY5gU1J39Ec" target="_blank">original "Favela" project (YouTube)</a> created with CityEngine, Maya and Maxwell created by Matthias Bühler and Cyrill Oberhänsli. </li><li>v2 released on 2020-06-03 for Serlio v1.1.0</li></ul></p>
+                  <p class="">The Favela example demonstrates how a complex CityEngine Rule Package (RPK) is applied on one or more polygons. The provided Maya project includes an Alembic file with shapes from CityEngine, the Favela RPK itself and Maya scenes.</br></br><strong>Notes:</strong><ul><li>Requires Maya 2018 or later. </li><li>Based on the <a href="https://www.youtube.com/watch?v=IY5gU1J39Ec" target="_blank">original "Favela" project (YouTube)</a> created with CityEngine, Maya and Maxwell created by Matthias Bühler and Cyrill Oberhänsli. </li><li>v2 released on 2020-06-03 for Serlio v1.1.0</li></ul></p>
                   
-                    <a class="link bottom-margin-10" href="https://github.com/Esri/serlio/releases/download/v1.1.0/favela_maya_project_v2.zip"><span>→ </span>Favela Maya Project</a>
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/serlio/releases/download/v1.1.0/favela_maya_project_v2.zip" target="_blank"><span>→ </span>Favela Maya Project</a>
+                  
+                    <a class="link bottom-margin-10" href="../assets/files/serlio_favela_instructions.txt" target="_blank"><span>→ </span>palladio_angkor_thom_instructions</a>
                   
               </div>
           </div>
         
+        </div>
+      </div>
+    </section>
+
+    <section class="darkgrey">
+      <div class="content vertical">
+        <h2 class="subtitle bottom-margin-30 white ">Links</h2>
+      </div>
+      <div class="content horizontal">
+        <div class="half vertical">
+          <p class="white">Here you will find a collection of Links with relevant information.</p>
+          
+          <a href="https://google.com" class="lightblue list-link">→ Title of Link</a>
+          
+          <a href="https://google.com" class="lightblue list-link">→ Another Link</a>
+          
         </div>
       </div>
     </section>

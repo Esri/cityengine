@@ -1,0 +1,15 @@
+Palladio Instructions:
+
+The scene consists of three major steps:
+
+1. The "/obj/PALLADIO_BASE" geometry node generates the various CityEngine Rules via Palladio and assigns them to multiple outputs.
+2. Multiple "/obj/process_palladio_xxx" nodes reference above outputs, apply a stone weathering effect and cache out the geometry.
+3. The "/obj/creepers_xxx" nodes apply some creeper plant effects.
+
+How to change one of the rule attribute values:
+
+1. Activate the "render" flag of the "OUT_columnRowWithBeams" node in PALLADIO_BASE.
+2. Find "attribcreate3" above the out node and change the value of "Total_Height", the model will regenerate.
+3. Go to "process_palladio_columnRowWithBeams" and render "file1", will take a while.
+4. Set the "render" flag back to "uvtransform1" and click "reload geometry" on "file2"."
+5. Repeat the previous step for the file nodes in "creepers_columnRowWithBeams".

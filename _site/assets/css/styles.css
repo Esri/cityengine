@@ -18,9 +18,9 @@ a { text-decoration: none; color: #0079c1; }
 
 ul { padding-left: 20px; margin-top: 0; margin-bottom: 0; }
 
-.primary-button { height: 40px; padding: 5px 20px; border-radius: 0; border: none; color: #ffffff; background: #0079c1; font-size: 16px; }
+.primary-button { height: 40px; padding: 5px 20px; border-radius: 0; border: none; background-color: #ffffff; color: #0079c1; border: 1px solid #0079c1; font-size: 16px; transition: 0.1s ease; }
 
-.primary-button:hover { color: #ffffff; background: #0079c1; cursor: pointer; }
+.primary-button:hover { box-shadow: 0px 0px 0px 1px #0079c1 inset; }
 
 .button { padding: 15px 30px; border-radius: 0; border: none; color: rgba(50, 50, 50, 0.95); background: #ffffff; font-size: 16px; }
 
@@ -36,7 +36,7 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .nav-link:hover { color: #222; opacity: 1; box-shadow: #0079c1 0 -3px 0 0 inset; }
 
-.subnav { top: -1px; position: sticky; height: 59px; border-bottom: 1px solid rgba(50, 50, 50, 0.95); }
+.subnav { top: -1px; position: sticky; height: 59px; border-bottom: 1px solid rgba(50, 50, 50, 0.95); z-index: 100; }
 
 .subnav-title-link { color: #ffffff; padding: 0 20px 0 8px; }
 
@@ -62,7 +62,7 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .third { flex-direction: column; display: flex; justify-content: flex; width: 33%; padding-right: 20px; padding-left: 20px; }
 
-.two-third { flex-direction: column; display: flex; justify-content: flex; width: 66%; padding-right: 20px; padding-left: 20px; }
+.two-third { flex-direction: column; display: flex; justify-content: flex; width: 66%; padding-right: 20px; padding-left: 20px; height: 100%; }
 
 .reverse { flex-direction: row-reverse; }
 
@@ -73,6 +73,8 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 .start { align-items: start; }
 
 .center { align-items: center; }
+
+.flex-grow { flex-grow: 1; }
 
 .just-centered { justify-content: center; }
 
@@ -102,7 +104,11 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .content { width: 1440px; max-width: 96vw; margin: 0 auto; padding: 0 20px; height: 100%; }
 
+.gallery { margin-bottom: 40px; }
+
 .lightgrey { background-color: #f4f4f4; }
+
+.list-link { margin-bottom: 10px; }
 
 .darkgrey { background-color: rgba(50, 50, 50, 0.95); }
 
@@ -140,6 +146,9 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .icon-ui-svg { max-height: 64px; max-width: 64px; fill: #0079c1; margin-bottom: 20px; }
 
+.ui-svg { max-height: 64px; max-width: 64px; margin-bottom: 20px; fill: none; }
+.ui-svg path { stroke: #0079c1; stroke-width: 1; }
+
 .download { margin: 0 80px; }
 
 .download p { margin: 3px 0; }
@@ -150,12 +159,16 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .footer { padding: 0; }
 
+.video-container { padding-bottom: 56.25%; height: 0; position: relative; padding-top: 30px; overflow: hidden; box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.3); }
+
+.video-container iframe { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
 @media only screen and (max-width: 1023px) { .horizontal:not(nav) { flex-direction: column; }
   .subnav { background-color: rgba(50, 50, 50, 0.95); height: 100%; }
   .subnav-wrapper { padding: 0; }
   .subnav-link-wrapper { display: none; }
   .content { padding: 0; }
-  .image-shadow { max-width: 95%; margin-bottom: 20px; }
+  .image-shadow, .video-container { max-width: 95%; margin-bottom: 20px; }
   .left-column { width: 100%; height: 100%; padding-left: 8px; padding-right: 20px; }
   .half { justify-content: flex-start; width: 100%; padding: 0 20px; }
   .third { width: 100%; }
