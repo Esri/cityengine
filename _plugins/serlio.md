@@ -9,6 +9,8 @@ platform: Maya
 logo: serlio.png
 github: https://github.com/Esri/serlio
 
+teaser-image: serlio_ex_1_3.png
+
 hero-title: Serlio
 hero-subtitle: Procedural Runtime for Maya
 hero-content:

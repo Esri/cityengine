@@ -9,8 +9,10 @@ platform: Houdini
 logo: palladio.png
 github: https://github.com/Esri/palladio
 
+teaser-image: palladio_ex_5_1.jpg
+
 hero-title: Palladio
-hero-subtitle: Procedural Runtime for Houdini
+hero-subtitle: CityEngine Plugin for Houdini
 hero-content:
   - type: video
     name: rOH_oZ1doLU
