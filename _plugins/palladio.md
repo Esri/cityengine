@@ -37,7 +37,7 @@ ressource-2-link-text: → Read documentation
 ressource-2-link-url: https://github.com/Esri/palladio/blob/master/README.md#documentation
 
 ressource-3-title: Github
-ressource-3-text: For more information, assets and ressources check our Github repository.
+ressource-3-text: For more information, assets and resources check our Github repository.
 ressource-3-link-text: → Go to Github
 ressource-3-link-url: https://github.com/esri/palladio/
 

@@ -40,10 +40,21 @@
 
     <section class="hero vertical just-centered">
       <div class="content horizontal">
-        <div class="half vertical">
+        <div class="half vertical just-centered">
           <h1 class="hero-text">{{ page.hero-text }}</h1>
         </div>
-        <div class="half">
+        <div class="half horizontal just-centered aspect">
+          {% for item in page.hero-content %}
+          {% if item.type == "video"  %}
+            <div class="video-container flex-grow">
+              <iframe src="https://www.youtube.com/embed/{{ item.name | append: '?wmode=transparent' }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          {% endif %}
+          {% if item.type == "image" %}
+            <img class="image-shadow" src="{{ site.url | relative_url }}/assets/img/{{ item.name }}"/>
+          {% endif %}
+          {% endfor %}
+          <!---->
         </div>
       </div>
     </section>
@@ -134,7 +145,7 @@
           <a href="https://doc.arcgis.com/en/cityengine/latest/whats-new/cityengine-whats-new.htm" class="lightblue"><span>→ </span>See what's new</a>
         </div>
         <div class="fourth">
-          <h3 class="subtitle4 white">Ressources</h3>
+          <h3 class="subtitle4 white">Resources</h3>
           <p class="grey">Build expertise and connect with the CityEngine community</p>
           <a href="https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/resources" class="lightblue"><span>→ </span>Build expertise</a>
         </div>

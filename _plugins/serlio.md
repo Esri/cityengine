@@ -36,7 +36,7 @@ ressource-2-link-text: → Read documentation
 ressource-2-link-url: https://github.com/esri/serlio/blob/master/README.md#documentation
 
 ressource-3-title: Github
-ressource-3-text: For more information, assets and ressources check our Github repository.
+ressource-3-text: For more information, assets and resources check our Github repository.
 ressource-3-link-text: → Go to Github
 ressource-3-link-url: https://github.com/esri/serlio/
 
@@ -53,14 +53,6 @@ examples:
 
     images:
       - image-name: serlio_ex_1_1.png
-
-
-link-collection:
-  - title: Title of Link
-    url: https://google.com
-  - title: Another Link
-    url: https://google.com
-
 
 
 legal: <ul><li>Serlio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed. </li><li>Serlio is under the same license as the included CityEngine SDK. An exception is the Serlio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li></ul>
