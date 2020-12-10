@@ -7,8 +7,15 @@ draft: false
 name: Vitruvio
 platform: Unreal
 logo: vitruvio.png
+github:
 
 teaser-image: pyprt-teaser-image.jpg
+
+hero-title: Vitruvio
+hero-subtitle: CityEngine Plugin for Unreal Engine
+hero-content:
+  - type: image
+    name: pyprt-teaser-image.jpg
 
 description: Vitruvio vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 ---

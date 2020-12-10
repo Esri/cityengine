@@ -1,10 +1,12 @@
 body { margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; }
 
-section { padding: 100px 0; }
+section { padding: 100px 0; max-width: 100%; }
 
 h1 { color: rgba(50, 50, 50, 0.95); font-size: 75px; line-height: 90px; font-weight: 100; }
 
 h2 { padding: 0 20px; text-align: left; }
+
+.subnav-title { padding: 0; }
 
 h3 { text-align: left; }
 
@@ -46,6 +48,9 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .subnav-wrapper { margin: 0 auto; width: 1440px; max-width: 96vw; padding: 0 20px; align-content: space-between; justify-content: space-between; height: 100%; }
 
+.subnav-left { display: flex; flex-grow: 1; align-items: center; justify-content: space-between; flex-direction: row; }
+.subnav-left svg { min-width: 49px; visibility: hidden; cursor: pointer; }
+
 .subnav-link { padding: 0 20px; box-shadow: #394eee 0 0 0 0 inset; box-sizing: border-box; }
 
 .subnav-link p { font-size: 16px; }
@@ -63,6 +68,8 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 .third { flex-direction: column; display: flex; justify-content: flex; width: 33%; padding-right: 20px; padding-left: 20px; }
 
 .two-third { flex-direction: column; display: flex; justify-content: flex; width: 66%; padding-right: 20px; padding-left: 20px; height: 100%; }
+
+.fourth { border: 1px solid #777777; flex-direction: column; display: flex; justify-content: flex; width: 25%; padding: 20px; margin: 10px; }
 
 .reverse { flex-direction: row-reverse; }
 
@@ -112,6 +119,8 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .darkgrey { background-color: rgba(50, 50, 50, 0.95); }
 
+.dark { background-color: #1a1a1a; }
+
 .small-teaser { margin: 0 40px 60px 40px; }
 
 .inline-icon { margin: 0 20px 20px 0; max-width: 80px; }
@@ -142,6 +151,8 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .white { color: #ffffff; }
 
+.grey { color: #aaaaaa; }
+
 .lightblue { color: #49b0f2; }
 
 .icon-ui-svg { max-height: 64px; max-width: 64px; fill: #0079c1; margin-bottom: 20px; }
@@ -163,16 +174,23 @@ nav { height: 55px; margin: 0 auto; width: 1440px; max-width: calc(100% - 40px);
 
 .video-container iframe { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
 
-@media only screen and (max-width: 1023px) { .horizontal:not(nav) { flex-direction: column; }
+@media only screen and (max-width: 1023px) { h1, h3 { font-size: 60px; line-height: 70px; }
+  .horizontal:not(nav) { flex-direction: column; }
   .subnav { background-color: rgba(50, 50, 50, 0.95); height: 100%; }
   .subnav-wrapper { padding: 0; }
+  .subnav-left svg { visibility: visible; }
   .subnav-link-wrapper { display: none; }
+  .menu-opened { display: block; }
+  .subnav-link { align-items: start; }
+  .subnav-link:hover { box-shadow: none; }
   .content { padding: 0; }
-  .image-shadow, .video-container { max-width: 95%; margin-bottom: 20px; }
+  .image-shadow { width: 100%; margin-bottom: 20px; }
+  .video-container { width: calc(100% - 40px); margin-bottom: 20px; }
   .left-column { width: 100%; height: 100%; padding-left: 8px; padding-right: 20px; }
-  .half { justify-content: flex-start; width: 100%; padding: 0 20px; }
-  .third { width: 100%; }
+  .half { justify-content: flex-start; width: calc(100% - 40px); padding: 0 20px; }
+  .third { width: calc(100% - 40px); }
   .two-third { width: 100%; }
+  .fourth { width: calc(100% - 60px); }
   .reverse { flex-direction: row; }
   .two-columns { column-count: 1; }
   .third { margin-bottom: 100px; }

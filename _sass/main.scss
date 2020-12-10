@@ -5,6 +5,8 @@ $darkblue: #394eee;
 $darkgrey: rgba(50, 50, 50, 0.95);
 $font: #4c4c4c;
 $lightgrey: #f4f4f4;
+$grey: #aaaaaa;
+$dark: #1a1a1a;
 
 body{
   margin:0;
@@ -14,6 +16,7 @@ body{
 
 section{
   padding: 100px 0;
+  max-width: 100%;
 }
 
 h1{
@@ -27,6 +30,11 @@ h2{
   padding: 0 20px;
   text-align: left;
 }
+
+.subnav-title{
+  padding: 0;
+}
+
 
 h3{
   text-align: left;
@@ -164,6 +172,20 @@ nav{
       height: 100%;
     }
 
+    .subnav-left{
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+
+        svg{
+          min-width: 49px;
+          visibility: hidden;
+          cursor: pointer;
+        }
+    }
+
     .subnav-link{
       padding: 0 20px;
       box-shadow: $darkblue 0 0 0 0 inset;
@@ -217,6 +239,16 @@ nav{
     padding-right: 20px;
     padding-left: 20px;
     height:100%;
+}
+
+.fourth {
+    border: 1px solid #777777;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex;
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
 }
 
 .reverse {
@@ -345,6 +377,10 @@ nav{
   background-color: $darkgrey;
 }
 
+.dark{
+  background-color: $dark;
+}
+
 .small-teaser{
   margin: 0 40px 60px 40px;
 }
@@ -429,6 +465,10 @@ nav{
   color: $white;
 }
 
+.grey{
+  color: $grey;
+}
+
 .lightblue{
   color: $lightblue;
 }
@@ -498,6 +538,11 @@ nav{
 
 @media only screen and (max-width: 1023px) {
 
+  h1, h3{
+    font-size: 60px;
+    line-height: 70px;
+  }
+
   .horizontal:not(nav){
     flex-direction: column;
   }
@@ -511,16 +556,37 @@ nav{
     padding: 0;
   }
 
+  .subnav-left svg{
+    visibility: visible;
+  }
+
   .subnav-link-wrapper{
     display: none;
+  }
+
+  .menu-opened{
+    display: block;
+  }
+
+  .subnav-link{
+    align-items: start;
+  }
+
+  .subnav-link:hover{
+    box-shadow: none;
   }
 
   .content{
     padding: 0;
   }
 
-  .image-shadow, .video-container{
-    max-width: 95%;
+  .image-shadow{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .video-container{
+    width: calc(100% - 40px);
     margin-bottom: 20px;
   }
 
@@ -535,16 +601,20 @@ nav{
 
   .half {
       justify-content: flex-start;
-      width: 100%;
+      width: calc(100% - 40px);
       padding: 0 20px;
   }
 
   .third {
-      width: 100%;
+      width: calc(100% - 40px);
   }
 
   .two-third {
       width: 100%;
+  }
+
+  .fourth {
+      width: calc(100% - 60px);
   }
 
   .reverse {

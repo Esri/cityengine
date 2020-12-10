@@ -12,7 +12,7 @@ github: https://github.com/Esri/serlio
 teaser-image: serlio_ex_1_3.png
 
 hero-title: Serlio
-hero-subtitle: Procedural Runtime for Maya
+hero-subtitle: Cityengine Plugin for Maya
 hero-content:
   - type: image
     name: serlio_ex_1_3.png
@@ -23,8 +23,22 @@ gallery:
   - image: serlio_ex_1_2.png
   - image: serlio_ex_1_1.png
 
-
 introduction: Complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow. Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production. </br>Serlio requires so-called rule packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Serlio.</br> Serlio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Serlio is restricted to the procedural generation of single buildings / objects. Serlio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from (or based on geographic data) is still needed.
+
+ressource-1-title: Downloads
+ressource-1-text: Download the latest version of Serlio here.
+ressource-1-link-text: → Go to downloads
+ressource-1-link-url: https://github.com/esri/serlio/releases
+
+ressource-2-title: Documentation
+ressource-2-text: A full documentation of Serlio is available on our Github repository.
+ressource-2-link-text: → Read documentation
+ressource-2-link-url: https://github.com/esri/serlio/blob/master/README.md#documentation
+
+ressource-3-title: Github
+ressource-3-text: For more information, assets and ressources check our Github repository.
+ressource-3-link-text: → Go to Github
+ressource-3-link-url: https://github.com/esri/serlio/
 
 examples:
 
@@ -49,6 +63,6 @@ link-collection:
 
 
 
-legal: Serlio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed. </br>Serlio is under the same license as the included CityEngine SDK. An exception is the Serlio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
+legal: <ul><li>Serlio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed. </li><li>Serlio is under the same license as the included CityEngine SDK. An exception is the Serlio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li></ul>
 
 ---

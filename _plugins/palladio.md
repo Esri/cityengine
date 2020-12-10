@@ -26,6 +26,21 @@ gallery:
 
 introduction: Complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow (optionally even at render time). Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production.</br>Palladio requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Palladio. More examples for CGA rule files can be found in the CityEngine tutorials.</br>Palladio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Palladio is restricted to the procedural generation of single buildings / objects. Palladio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from scratch (or based on geographic data) is still needed.
 
+ressource-1-title: Downloads
+ressource-1-text: Download the latest version of Palladio here.
+ressource-1-link-text: → Go to downloads
+ressource-1-link-url: https://github.com/esri/palladio/releases
+
+ressource-2-title: Documentation
+ressource-2-text: A full documentation of Palladio is available on our github repository.
+ressource-2-link-text: → Read documentation
+ressource-2-link-url: https://github.com/Esri/palladio/blob/master/README.md#documentation
+
+ressource-3-title: Github
+ressource-3-text: For more information, assets and ressources check our Github repository.
+ressource-3-link-text: → Go to Github
+ressource-3-link-url: https://github.com/esri/palladio/
+
 
 
 examples:
@@ -94,16 +109,9 @@ examples:
 
 
 
-link-collection:
-  - title: Title of Link
-    url: https://google.com
-  - title: Another Link
-    url: https://google.com
 
 
 
-
-
-legal: Palladio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed.</br>Palladio is under the same license as the included CityEngine SDK.</br> An exception is the Palladio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</br>The “Favela” example data is copyrighted by vrbn studios. Please contact ​info@vrbn.io for commercial licensing options.
+legal: <ul><li>Palladio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed.</li><li>Palladio is under the same license as the included CityEngine SDK.</li><li>An exception is the Palladio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li><li>The “Favela” example data is copyrighted by vrbn studios. Please contact ​info@vrbn.io for commercial licensing options.</li></ul>
 
 ---
