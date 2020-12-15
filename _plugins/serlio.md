@@ -5,6 +5,7 @@ order-of-appearance: 2
 draft: false
 
 name: Serlio
+title: Serlio - Plugin for Maya
 platform: Maya
 logo: serlio.png
 github: https://github.com/Esri/serlio
@@ -12,18 +13,18 @@ github: https://github.com/Esri/serlio
 teaser-image: serlio_ex_1_3.png
 
 hero-title: Serlio
-hero-subtitle: Cityengine Plugin for Maya
+hero-subtitle: CityEngine Plugin for Autodesk Maya
 hero-content:
-  - type: image
-    name: serlio_ex_1_3.png
+  - type: video
+    name: G6MpB4dDhx0
 
-description: Serlio is a plugin for Autodesk Maya. It provides a modifier node which enables the execution of CityEngine ‘rules’ within a Maya scene. Therefore, a 3D environment artist does not have to leave their familiar Maya toolset anymore to make use of CityEngine’s procedural modeling power.
+description: Serlio is a plugin for Autodesk Maya. It provides a modifier node which enables the execution of CityEngine CGA rules within a Maya scene. Therefore, a 3D environment artist does not have to leave their familiar Maya toolset anymore to make use of the procedural modeling power of CityEngine.
 
 gallery:
   - image: serlio_ex_1_2.png
   - image: serlio_ex_1_1.png
 
-introduction: Complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow. Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production. </br>Serlio requires so-called rule packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Serlio.</br> Serlio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Serlio is restricted to the procedural generation of single buildings / objects. Serlio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from (or based on geographic data) is still needed.
+introduction: With Serlio, complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow. Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production.<br/><br/>Serlio requires so-called rule packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Serlio.<br/><br/>Serlio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Serlio is restricted to the procedural generation of single buildings or objects. Serlio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from (or based on geographic data) is still needed.
 
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of Serlio here.
@@ -48,8 +49,8 @@ examples:
     files:
     - title: Favela Maya Project
       link: https://github.com/Esri/serlio/releases/download/v1.1.0/favela_maya_project_v2.zip
-    - title: palladio_angkor_thom_instructions
-      link: ../assets/files/serlio_favela_instructions.txt
+    - title: Instructions
+      link: ./assets/files/serlio_favela_instructions.txt
 
     images:
       - image-name: serlio_ex_1_1.png

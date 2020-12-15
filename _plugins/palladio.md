@@ -5,26 +5,27 @@ order-of-appearance: 1
 draft: false
 
 name: Palladio
+title: Palladio - Plugin for Houdini
 platform: Houdini
 logo: palladio.png
 github: https://github.com/Esri/palladio
 
-teaser-image: palladio_ex_5_1.jpg
+teaser-image: palladio_teaser_image.png
 
 hero-title: Palladio
-hero-subtitle: CityEngine Plugin for Houdini
+hero-subtitle: CityEngine Plugin for SideFX Houdini
 hero-content:
-  - type: video
-    name: rOH_oZ1doLU
+  - type: image
+    name: palladio_teaser_image.png
 
-description: Palladio is a plugin for SideFX Houdini. It provides operator nodes which enable the execution of CityEngine ‘rules’ within Houdini networks. Therefore, a 3D environment artist does not have to leave their familiar Houdini toolset anymore to make use of CityEngine’s procedural modeling power.
+description: Palladio is a plugin for SideFX Houdini. It provides "surface operator" nodes which enable the execution of CityEngine CGA rules within Houdini networks. Therefore, 3D environment artists do not have to leave their familiar Houdini toolset anymore to make use of the procedural modeling power of CityEngine.
 
 gallery:
 - image: palladio_ex_1_2.jpg
 - image: palladio_ex_2_2.png
 - image: palladio_ex_1_3.jpg
 
-introduction: Complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow (optionally even at render time). Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production.</br>Palladio requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Palladio. More examples for CGA rule files can be found in the CityEngine tutorials.</br>Palladio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Palladio is restricted to the procedural generation of single buildings / objects. Palladio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from scratch (or based on geographic data) is still needed.
+introduction: With Palladio, complicated export-import pipelines are no longer needed to get CityEngine models into Houdini. This also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow (optionally even at render time). Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production.<br/><br/>Palladio requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Palladio. More examples for CGA rule files can additionally be found in the CityEngine tutorials.<br/><br/>Palladio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Palladio is restricted to the procedural generation of single buildings/objects. Palladio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from scratch (or based on geographic data) is still needed.
 
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of Palladio here.
@@ -51,11 +52,11 @@ examples:
     files:
       - title: Houdini and CityEngine projects
         link: https://github.com/Esri/palladio/releases/download/v1.6.0/Palladio_Example_Angkor_Thom_v2.zip
-      - title: Instruction
-        link: ../assets/files/palladio_angkor_thom_instructions.txt
+      - title: Instructions
+        link: ./assets/files/palladio_angkor_thom_instructions.txt
 
     images:
-      - image-name: palladio_ex_1_1.jpg
+      - image-name: palladio_ex_1_4.png
 
 
   - title: Favela
@@ -72,7 +73,7 @@ examples:
 
 
 
-  - title: CityEngine Material Handling (MANTRA)
+  - title: CityEngine material handling for the Mantra renderer
     text: This example shows how to use the generated CityEngine material attributes with Mantra.</br></br>Downloads&colon;
 
     files:
@@ -106,9 +107,6 @@ examples:
 
     images:
       - image-name: palladio_ex_5_1.jpg
-
-
-
 
 
 
