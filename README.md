@@ -2,6 +2,7 @@ Name: cityengine
 Description: Overview of CityEngine Plugins and APIs
 
 # CityEngine Plugins
+This site is meant to give an overview of all the available CityEngine Plugins and APIs available. The site provides useful links to repositories, resources, downloads and instructions.
 
 ## Features
 * Palladio - CityEngine Plugin for Houdini
