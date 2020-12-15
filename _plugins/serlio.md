@@ -56,6 +56,6 @@ examples:
       - image-name: serlio_ex_1_1.png
 
 
-legal: <ul><li>Serlio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed. </li><li>Serlio is under the same license as the included CityEngine SDK. An exception is the Serlio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li></ul>
+legal: <ul><li>Serlio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed. </li><li>Serlio is under the same license as the included <a href="https://github.com/Esri/esri-cityengine-sdk#licensing" target="_blank">CityEngine SDK</a>. An exception is the Serlio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>.</li></ul>
 
 ---

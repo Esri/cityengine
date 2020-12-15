@@ -55,5 +55,5 @@ examples:
       - image-name: cityengine_ex_1_1.png
 
 
-legal: <ul><li>Copyright (c) 2020 Esri</li><li>You may not use the content of this repository except in compliance with the following Licenses&colon;</li><li>All content in the "examples" directory tree is licensed under the APACHE 2.0 license. You may obtain a copy of this license at http://www.apache.org/licenses/LICENSE-2.0.</li><li>All other content is licensed under the Esri Terms of Use (also see Product-Specific Terms of Use).</li></ul>
+legal: <ul><li>Copyright (c) 2020 Esri</li><li>You may not use the content of this repository except in compliance with the following Licenses&colon;</li><li>All content in the "examples" directory tree is licensed under the APACHE 2.0 license. You may obtain a copy of this license at <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>.</li><li>All other content is licensed under the Esri Terms of Use (also see Product-Specific Terms of Use).</li></ul>
 ---

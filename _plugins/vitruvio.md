@@ -69,6 +69,6 @@ examples:
         link: https://github.com/Esri/vitruvio/releases/download/v1.0/Vitruvio_Paris_UE426.zip
 
 
-legal: <ul><li>Vitruvio is under the same license as the included CityEngine SDK.</li><li>An exception is the Vitruvio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li></ul>
+legal: <ul><li>Vitruvio is under the same license as the included <a href="https://github.com/Esri/esri-cityengine-sdk#licensing" target="_blank">CityEngine SDK</a>.</li><li>An exception is the Vitruvio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>.</li></ul>
 
 ---
