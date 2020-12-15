@@ -72,8 +72,9 @@ ul{
 }
 
 .primary-button{
+  line-height: 40px;
   height: 40px;
-  padding: 5px 20px;
+  padding: 0 20px;
   border-radius: 0;
   border: none;
   background-color: $white;
@@ -238,7 +239,6 @@ nav{
     width: 66%;
     padding-right: 20px;
     padding-left: 20px;
-    height:100%;
 }
 
 .fourth {
@@ -387,6 +387,11 @@ nav{
 
 .inline-icon {
     margin: 0 20px 20px 0;
+    max-width: 80px;
+}
+
+.small-icon {
+    margin-bottom: 20px;
     max-width: 80px;
 }
 
