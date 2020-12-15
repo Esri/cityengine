@@ -1,4 +1,22 @@
+Name: cityengine
+Description: Overview of CityEngine Plugins and APIs
+
 # CityEngine Plugins
+
+## Features
+* Palladio - CityEngine Plugin for Houdini
+* Serlio - CityEngine Plugin for Autodesk Maya
+* Vitruvio - CityEngine Plugin for Unreal Engine
+* PyPRT - Python Bindings for the CityEngine SDK
+* CityEngine SDK - Procedural Runtime for 3rd party developers
+
+## Resources
+
+* [Palladio Repository](http://esri.github.com/palladio)
+* [Serlio Repository](http://esri.github.com/serlio)
+* [Vitruvio Repository](http://esri.github.com/vitruvio)
+* [CityEngine SDK Repository](http://esri.github.com/cityengine-sdk)
+* [PyPRT Repository](http://esri.github.com/pyprt)
 
 ## Licensing
 Copyright (c) 2020 Esri
