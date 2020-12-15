@@ -24,3 +24,5 @@ Copyright (c) 2020 Esri
 You may not use the content of this repository except in compliance with the following Licenses:
 1. The documentation contained in this repository is licensed under the APACHE 2.0 license. You may obtain a copy of this license at http://www.apache.org/licenses/LICENSE-2.0.
 1. All other content is licensed under the [Esri Terms of Use](https://www.esri.com/legal/licensing-translations) (also see [Product-Specific Terms of Use](https://assets.esri.com/content/dam/esrisites/en-us/media/legal/product-specific-terms-of-use/e300.pdf)).
+
+[](Esri Tags: CityEngine PRT Plugins APIs)
