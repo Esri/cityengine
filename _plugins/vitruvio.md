@@ -18,7 +18,7 @@ hero-content:
   - type: image
     name: vitruvio_teaser_image.jpg
 
-description: Vitruvio is a plugin for Unreal Engine (UE). It enables the use of CityEngine CGA rules for the generation of procedural buildings within the Unreal Editor or game runtimes.
+description: Vitruvio is a plugin for Unreal Engine (UE). It enables the use of CityEngine CGA rules for the generation of procedural buildings in the Unreal Editor or at runtime.
 
 gallery:
 - image: vitruvio_gallery_1.jpg
