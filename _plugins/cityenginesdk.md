@@ -18,14 +18,14 @@ hero-content:
 
 teaser-image: cityengine_teaser_image.png
 
-description: One of the most important components of CityEngine is the "Procedural Runtime" (PRT). It consumes Rule Packages (RPK) authored with CityEngine and generates the 3d geometry of building models.
+description: One of the most important components of CityEngine is the "Procedural Runtime" (PRT). It consumes Rule Packages (RPK) authored with CityEngine and generates the 3D geometry of building models.
 
 gallery:
 - image: cityengine_gallery_1.png
 - image: cityengine_gallery_2.png
 - image: cityengine_gallery_3.png
 
-introduction: The CityEngine SDK consists of the "Procedural Runtime" (PRT) C++ APIs, documentation and source code examples. PRT consumes "Rule Packages" (RPK) authored within CityEngine and generates the 3d geometry of building models.<br/><br/>PRT can be used for the (1) development of custom importers and exporters for CityEngine, or to (2) create plugins for other 3D apps which need a procedural geometry engine.<br/><br/>For the first use case, this means that the SDK enables you to develop CityEngine plugins to read or write additional 3D geometry and image formats or your own proprietary 3D data format. An example is 3D printing where the STL geometry format is often needed. STL support is not provided out-of-the-box in CityEngine, but you can develop your own STL exporter as shown in the included examples below.<br/><br/>In the second use case, PRT is integrated into your own 3D applications taking full advantage of the procedural geometry generation without running CityEngine. PRT takes as input an initial geometry and then applies a given rule package (= CGA rules authored in CityEngine) to generate more detailed 3D geometry as output. For example, PRT can generate - based on given rules - a 3D model of a building out of a parcel polygon. This is how our plugins for e.g. Houdini operate in principle.
+introduction: The CityEngine SDK consists of the "Procedural Runtime" (PRT) C++ APIs, documentation and source code examples. PRT consumes "Rule Packages" (RPK) authored within CityEngine and generates the 3D geometry of building models.<br/><br/>PRT can be used for the (1) development of custom importers and exporters for CityEngine, or to (2) create plugins for other 3D apps which need a procedural geometry engine.<br/><br/>For the first use case, this means that the SDK enables you to develop CityEngine plugins to read or write additional 3D geometry and image formats or your own proprietary 3D data format. An example is 3D printing where the STL geometry format is often needed. STL support is not provided out-of-the-box in CityEngine, but you can develop your own STL exporter as shown in the included examples below.<br/><br/>In the second use case, PRT is integrated into your own 3D applications taking full advantage of the procedural geometry generation without running CityEngine. PRT takes as input an initial geometry and then applies a given rule package (= CGA rules authored in CityEngine) to generate more detailed 3D geometry as output. For example, PRT can generate - based on given rules - a 3D model of a building out of a parcel polygon. This is how our plugins, such as Houdini, operate in principle.
 
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of CityEngine SDK here.
