@@ -25,7 +25,7 @@ gallery:
 - image: vitruvio_gallery_2.jpg
 - image: vitruvio_gallery_3.jpg
 
-introduction: With Vitruvio, game designers or artists do not have to leave the Unreal Engine to make use of the procedural modeling power of CityEngine. The buildings stay procedural all time and artists can change the height, style and appearance of buildings easily with a parametric interface. In addition, buildings can also be generated at runtime.<br/>As input, Vitruvio requires Rule Packages (RPK) which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. The download section below provides links to the several RPKs which can be used out-of-the-box in Vitruvio.
+introduction: With Vitruvio, game designers or artists do not have to leave the Unreal Engine to make use of the procedural modeling power of CityEngine. The buildings stay procedural all time and artists can change the height, style and appearance of buildings easily with a parametric interface. In addition, buildings can also be generated at runtime.<br/>As input, Vitruvio requires Rule Packages (RPK) which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. The download section below provides links to the several RPKs which can be used out-of-the-box in Vitruvio. <br/><br/><strong><i>Vitruvio is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
 
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of Vitruvio here.
@@ -81,6 +81,6 @@ examples:
 
 
 
-legal: <ul><li>Vitruvio is under the same license as the included <a href="https://github.com/Esri/esri-cityengine-sdk#licensing" target="_blank">CityEngine SDK</a>.</li><li>An exception is the Vitruvio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>.</li></ul>
+legal: <ul><li>Vitruvio is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted.</li><li>Vitruvio is under the same license as the included <a href="https://github.com/Esri/esri-cityengine-sdk#licensing" target="_blank">CityEngine SDK</a>.</li><li>All content in the "Examples" directory/section is licensed under the APACHE 2.0 license. You may obtain a copy of this license at<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>.</li><li>For questions or enquiries, please contact <a href= "mailto:@esri.com">@esri.com</a></li></ul>
 
 ---
