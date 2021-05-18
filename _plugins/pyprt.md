@@ -18,7 +18,7 @@ hero-content:
   - type: image
     name: pyprt-teaser-image.jpg
 
-description: PyPRT provides Python bindings for the “Procedural Runtime” (PRT) of CityEngine. It enables the execution of CityEngine CGA rules within Python. Using PyPRT, the generation of 3D content in Python is greatly simplified.
+description: PyPRT provides a Python binding for PRT (Procedural RunTime) of CityEngine. This enables the execution of CityEngine CGA rules within Python. Using PyPRT, the generation of 3D content in Python is greatly simplified.
 
 gallery:
 - image: pyprt_ex_5_1.jpg
