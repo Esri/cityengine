@@ -1,7 +1,7 @@
 ---
 layout: detail
 fullpreview: true
-order-of-appearance: 3
+order-of-appearance: 4
 draft: false
 
 name: Vitruvio
