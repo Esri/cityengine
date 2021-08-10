@@ -29,12 +29,12 @@ introduction: Users, such as Python developers, data scientists, or GIS analysts
 ressource-1-title: Installation
 ressource-1-text: Simply run <code class="language-plaintext highlighter-rouge">pip install pyprt</code> in your desired Python environment or <code class="language-plaintext highlighter-rouge">conda install -c esri pyprt</code> in a Conda environment. Then use <code class="language-plaintext highlighter-rouge">import pyprt</code> in your scripts.
 ressource-1-link-text: → Installation instructions
-ressource-1-link-url: https://github.com/Esri/pyprt/blob/master/README.md#installation
+ressource-1-link-url: https://github.com/Esri/pyprt/blob/main/README.md#installation
 
 ressource-2-title: Documentation
 ressource-2-text: A full documentation of PyPRT is available on our github repository.
 ressource-2-link-text: → Read documentation
-ressource-2-link-url: https://github.com/Esri/pyprt/blob/master/README.md#documentation
+ressource-2-link-url: https://github.com/Esri/pyprt/blob/main/README.md#documentation
 
 ressource-3-title: Github
 ressource-3-text: For more information, assets and resources check our Github repository.
@@ -49,7 +49,7 @@ examples:
     text: This example tries to answer the following question&colon; given the architectural design of a building (defined by a CGA rule) and a parcel, which values for the building parameters should we choose in order to maximize the green potential of the building?
     files:
     - title: Link to the example notebook
-      link: https://github.com/Esri/pyprt-examples/blob/master/ex7_building_modeling_optimization.ipynb
+      link: https://github.com/Esri/pyprt-examples/blob/main/ex7_building_modeling_optimization.ipynb
     - title: ArcGIS Notebooks and PyPRT (Instruction)
       link: ./assets/files/ArcGIS-Notebooks-and-PyPRT.txt
     images:
@@ -59,7 +59,7 @@ examples:
     text: This example presents a possible workflow consisting of collecting and selecting city parcels, and populating them with procedurally generated trees. To do so, PyPRT is used in combination with other Python libraries, e.g. the <a href="https://developers.arcgis.com/python">ArcGIS API for Python</a>.
     files:
     - title: Link to the example notebook
-      link: https://github.com/Esri/pyprt-examples/blob/master/ex8_3d_gis_content_generation.ipynb
+      link: https://github.com/Esri/pyprt-examples/blob/main/ex8_3d_gis_content_generation.ipynb
     - title: ArcGIS Notebooks and PyPRT (Instruction)
       link: ./assets/files/ArcGIS-Notebooks-and-PyPRT.txt
     images:
