@@ -51,7 +51,7 @@
         <div class="two-third horizontal just-centered aspect">
           {% for item in page.hero-content %}
           {% if item.type == "video"  %}
-            <div class="video-container flex-grow">
+            <div class="video-container">
               <iframe src="https://www.youtube.com/embed/{{ item.name | append: '?wmode=transparent' }}" frameborder="0" allowfullscreen></iframe>
             </div>
           {% endif %}
