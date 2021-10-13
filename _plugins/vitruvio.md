@@ -29,8 +29,8 @@ introduction: With Vitruvio, game designers or artists do not have to leave the 
 
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of Vitruvio here.
-ressource-1-link-text: → Unreal Marketplace
-ressource-1-link-url: https://www.unrealengine.com/marketplace/en-US/product/vitruvio-cityengine-plugin/
+ressource-1-link-text: → Go to downloads
+ressource-1-link-url: https://github.com/Esri/vitruvio/blob/main/doc/installation.md
 
 ressource-2-title: Documentation
 ressource-2-text: A full documentation of Vitruvio is available on our github repository.
