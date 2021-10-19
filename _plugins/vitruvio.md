@@ -50,7 +50,7 @@ examples:
       - image-name: vitruvio_ex_3_2.jpg
     files:
       - title: Paris Example
-        link: https://github.com/Esri/vitruvio/releases/download/v1.0/Vitruvio_Paris_UE426.zip
+        link: https://github.com/Esri/vitruvio/releases/download/v1.1/Vitruvio_Paris_UE427.zip
 
   - title: New York
     text: This example features a part of New York. The building footprints are exported from CityEngine using <a href="https://doc.arcgis.com/en/cityengine/latest/help/cityengine-help-get-map-data.htm">Get Map Data</a>.</br></br>Notes&colon;</br><ul><li>The rules are from the International City example of CityEngine.</li><li>Please make sure to <a href="https://github.com/Esri/vitruvio/blob/master/doc/installation.md">install Vitruvio</a> before running the examples.</li></ul></br></br>Downloads&colon;
@@ -58,7 +58,7 @@ examples:
       - image-name: vitruvio_ex_2_1.jpg
     files:
       - title: New York Example
-        link: https://github.com/Esri/vitruvio/releases/download/v1.0/Vitruvio_NewYork_UE426.zip
+        link: https://github.com/Esri/vitruvio/releases/download/v1.1/Vitruvio_NewYork_UE427.zip
 
   - title: Medieval City
     text: This example features buildings in a European medieval style.</br></br>Notes&colon;</br><ul><li>The building rules are from the Medieval City example of CityEngine.</li><li>Please make sure to <a href="https://github.com/Esri/vitruvio/blob/master/doc/installation.md">install Vitruvio</a> before running the examples.</li></ul></br></br>Downloads&colon;
@@ -66,7 +66,7 @@ examples:
       - image-name: vitruvio_ex_1_1.jpg
     files:
       - title: Medieval City Example
-        link: https://github.com/Esri/vitruvio/releases/download/v1.0/Vitruvio_MedievalCity_UE426.zip
+        link: https://github.com/Esri/vitruvio/releases/download/v1.1/Vitruvio_MedievalCity_UE427.zip
 
   - title: NYC 2259
     text: This example features New York city 240 years into the future, inspired by the great 1998 motion picture The Fifth Element.</br></br>Notes&colon;</br><ul><li>The rules are adapted from the NYC2259 example of CityEngine.</li><li>The rules assign custom Unreal Materials to the building facades which can be found in the Content/Materials folder.</li><li>Please make sure to <a href="https://github.com/Esri/vitruvio/blob/master/doc/installation.md">install Vitruvio</a> before running the examples.</li></ul></br></br>Downloads&colon;
@@ -74,7 +74,7 @@ examples:
       - image-name: vitruvio_ex_4_1.png
     files:
       - title: NYC 2259 Example
-        link: https://github.com/Esri/vitruvio/releases/download/v1.0.1/Vitruvio_NYC2259_UE426.zip
+        link: https://github.com/Esri/vitruvio/releases/download/v1.1/Vitruvio_NYC2259_UE427.zip
 
 
 
