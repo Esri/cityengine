@@ -92,6 +92,23 @@ ul{
     box-shadow: 0px 0px 0px 1px $blue inset
   }
 
+.secondary-button{
+  line-height: 40px;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 0;
+  border: none;
+  background-color: $white;
+  color: $darkgrey;
+  font-size: 16px;
+  transition: 0.1s ease;
+  margin: 0 auto;
+}
+
+  .secondary-button:hover{
+    background-color: $lightgrey;
+  }
+
 .button{
   padding: 15px 30px;
   border-radius: 0;
@@ -212,6 +229,11 @@ nav{
 
 .flex{
   display: flex;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -432,6 +454,10 @@ nav{
   font-weight: 400;
   margin: 0;
   padding: 0;
+}
+
+.centered-text{
+  text-align: center;
 }
 
 .link {

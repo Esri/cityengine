@@ -27,6 +27,11 @@ gallery:
 
 introduction: The CityEngine SDK consists of the "Procedural Runtime" (PRT) C++ APIs, documentation and source code examples. PRT consumes "Rule Packages" (RPK) authored within CityEngine and generates the 3D geometry of building models.<br/><br/>PRT can be used for the (1) development of custom importers and exporters for CityEngine, or to (2) create plugins for other 3D apps which need a procedural geometry engine.<br/><br/>For the first use case, this means that the SDK enables you to develop CityEngine plugins to read or write additional 3D geometry and image formats or your own proprietary 3D data format. An example is 3D printing where the STL geometry format is often needed. STL support is not provided out-of-the-box in CityEngine, but you can develop your own STL exporter as shown in the included examples below.<br/><br/>In the second use case, PRT is integrated into your own 3D applications taking full advantage of the procedural geometry generation without running CityEngine. PRT takes as input an initial geometry and then applies a given rule package (= CGA rules authored in CityEngine) to generate more detailed 3D geometry as output. For example, PRT can generate - based on given rules - a 3D model of a building out of a parcel polygon. This is how our plugins, such as Palladio, operate in principle.<br/><br/><strong><i>The CityEngine SDK is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
 
+callout: false
+callout-text: Enter text for callout
+callout-button: Enter text for button
+callout-link: enter link url
+
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of CityEngine SDK here.
 ressource-1-link-text: → Go to downloads

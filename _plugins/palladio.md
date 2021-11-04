@@ -27,6 +27,11 @@ gallery:
 
 introduction: With Palladio, complicated export-import pipelines are no longer needed to get CityEngine models into Houdini. This also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow (optionally even at render time). Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production.<br/><br/>Palladio requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Palladio. More examples for CGA rule files can additionally be found in the <a href="https://doc.arcgis.com/en/cityengine/latest/tutorials/introduction-to-the-cityengine-tutorials.htm" target="_blank">CityEngine tutorials</a>.<br/><br/>Palladio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Palladio is restricted to the procedural generation of single buildings/objects. Palladio does not include the city layout and street network editing tools of CityEngine (i.e. the rich CityEngine toolset to design a city from scratch, or based on geographic data, is still needed).<br/><br/><strong><i>Palladio is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
 
+callout: false
+callout-text: Enter text for callout
+callout-button: Enter text for button
+callout-link: enter link url
+
 ressource-1-title: Downloads
 ressource-1-text: Download the latest version of Palladio here.
 ressource-1-link-text: → Go to downloads

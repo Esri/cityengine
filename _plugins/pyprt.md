@@ -26,6 +26,11 @@ gallery:
 
 introduction: Users, such as Python developers, data scientists, or GIS analysts, can efficiently make use of CityEngine Rule Packages (RPK) in order to create 3D geometries stored as Python data structures, or to export these geometries in another format (like OBJ, Scene Layer Package, … ). Given an initial geometry, on which to apply the CGA rule, the 3D generation is procedurally done in Python (Python script, Jupyter Notebook, …). This allows for efficient and customizable geometry generation. For example, when modeling buildings, PyPRT users can easily change the parameters of the generated buildings (like the height or the shape) by changing the values of the CGA rule input attributes.<br/><br/>PyPRT 3D content generation is based on CGA Rule Packages (RPK), which are authored in CityEngine. RPKs contain the CGA rule files that define the shape transformations, as well as supplementary assets. RPK examples can be found below and directly used in PyPRT.<br/><br/>PyPRT allows generating 3D models on multiple initial geometries. Different input attributes can be applied on each of these initial shapes. Moreover, the output 3D geometries can either be used from within Python or exported to another format by using one of the built-in PRT encoders.<br/><br/><strong><i>PyPRT is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
 
+callout: false
+callout-text: Enter text for callout
+callout-button: Enter text for button
+callout-link: enter link url
+
 ressource-1-title: Installation
 ressource-1-text: Simply run <code class="language-plaintext highlighter-rouge">pip install pyprt</code> in your desired Python environment or <code class="language-plaintext highlighter-rouge">conda install -c esri pyprt</code> in a Conda environment. Then use <code class="language-plaintext highlighter-rouge">import pyprt</code> in your scripts.
 ressource-1-link-text: → Installation instructions

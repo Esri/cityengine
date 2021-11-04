@@ -88,6 +88,13 @@
       </div>
     </section>
 
+    {% if page.callout == true %}
+      <section class="darkgrey flex-column" id="callout">
+        <h2 class="subtitle centered-text white bottom-margin-70">{{ page.callout-text }}</h2>
+        <a class="secondary-button centered-link" href="{{ page.callout-link }}" target="_blank">{{ page.callout-button }}</a>
+      </section>
+    {% endif %}
+
     <section class="lightgrey">
       <div class="content vertical">
         <h2 class="subtitle bottom-margin-70">Downloads and Resources</h2>
