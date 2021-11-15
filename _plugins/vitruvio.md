@@ -28,7 +28,7 @@ gallery:
 introduction: With Vitruvio, game designers or artists do not have to leave the Unreal Engine to make use of the procedural modeling power of CityEngine. The buildings stay procedural all time and artists can change the height, style and appearance of buildings easily with a parametric interface. In addition, buildings can also be generated at runtime.<br/>As input, Vitruvio requires Rule Packages (RPK) which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. The download section below provides links to the several RPKs which can be used out-of-the-box in Vitruvio. <br/><br/><strong><i>Vitruvio is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
 
 callout: true
-callout-text: Help us improve Vitruvio
+callout-text: Help us improve Vitruvio:
 callout-button: Take the survey
 callout-link: https://survey123.arcgis.com/share/8e812fdce4174a92bfe3deeb8f092d1c
 
