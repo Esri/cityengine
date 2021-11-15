@@ -40,6 +40,12 @@
       </div>
     </div>
 
+    {% if page.callout == true %}
+      <section class="callout" href="{{ page.callout-link }}"  target="_blank">
+        <p class="subtitle centered-text white bottom-margin-70">{{ page.callout-text }} <a href="{{ page.callout-link }}"  target="_blank">{{ page.callout-button }}</a> </p>
+      </section>
+    {% endif %}
+
     <section class="hero vertical just-centered">
       <div class="content horizontal flex-grow">
         <div class="third vertical just-centered">

@@ -210,6 +210,16 @@ nav{
       box-shadow: $darkblue 0 -3px 0 0 inset;
     }
 
+.callout{
+  background-color: #6A0BE6;
+  color: #ffffff;
+}
+
+  .callout a{
+    text-decoration: underline;
+    color: #ffffff;
+  }
+
 .flex{
   display: flex;
 }
