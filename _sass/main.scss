@@ -213,7 +213,14 @@ nav{
 .callout{
   background-color: #6A0BE6;
   color: #ffffff;
+  font-size: 16px;
+  margin: 0 2vw;
 }
+
+  .callout p{
+    text-align: center;
+    margin: 17px 20px;
+  }
 
   .callout a{
     text-decoration: underline;
