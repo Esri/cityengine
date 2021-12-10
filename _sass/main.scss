@@ -210,6 +210,27 @@ nav{
       box-shadow: $darkblue 0 -3px 0 0 inset;
     }
 
+.callout{
+  background-color: #6A0BE6;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0 2vw;
+}
+
+  .callout p{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 14px 0;
+    line-height: 21px;
+  }
+
+  .callout a{
+    padding-left: 5px;
+    text-decoration: underline;
+    color: #ffffff;
+  }
+
 .flex{
   display: flex;
 }
