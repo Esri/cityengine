@@ -47,8 +47,12 @@ examples:
     text: This example demonstrates the main features of Puma in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes.
 
     files:
-      - title: Street Segment Example
-        link: https://github.com/esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip
+      - title: Street Segment Example Part 1 (1G)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip.001
+      - title: Street Segment Example Part 2 (1G)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip.002
+      - title: Street Segment Example Part 3 (500M)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip.003
 
     images:
       - image-name: puma_street_segment_overview_1920x1080.jpg
