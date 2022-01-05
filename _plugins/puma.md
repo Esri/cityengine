@@ -47,12 +47,16 @@ examples:
     text: This example demonstrates the main features of Puma in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes.
 
     files:
-      - title: Street Segment Example Part 1 (1G)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip.001
-      - title: Street Segment Example Part 2 (1G)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip.002
-      - title: Street Segment Example Part 3 (500M)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/puma_street_segment_example_v1.zip.003
+      - title: Street Segment Example Part 1 (Rhino Scene files)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_1_Rhino.Files.zip
+      - title: Street Segment Example Part 2 (Building Construction RPKs)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_2_Building_Construction_RPKs.zip
+      - title: Street Segment Example Part 3 (Complete Streets RPKs)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_3_Complete_Street_RPKs.zip
+      - title: Street Segment Example Part 4 (Generic Modern Building RPKs)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_4_Generic_Modern_Building_RPKs.zip
+      - title: Street Segment Example Part 5 (Floor RPKs)
+        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_5_Floor_RPKs.zip
 
     images:
       - image-name: puma_street_segment_overview_1920x1080.jpg
