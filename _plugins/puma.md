@@ -44,7 +44,7 @@ ressource-3-link-url: https://github.com/esri/puma
 examples:
 
   - title: Street Segment
-    text: This example demonstrates the main features of Puma in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes. Extract the contents of all 5 zips into a <strong>single directory</strong> then open the Rhino and Grasshopper files and Puma will find the RPks automatically.
+    text: This example demonstrates the main features of Puma in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes. Extract the contents of all 5 zips into a <strong>single directory</strong> then open the Rhino and Grasshopper files and Puma will find the RPKs automatically.
 
     files:
       - title: Street Segment Example Part 1 (Rhino Scene files)
