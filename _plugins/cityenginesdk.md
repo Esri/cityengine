@@ -35,7 +35,7 @@ ressource-1-link-url: https://github.com/esri/cityengine-sdk/releases
 ressource-2-title: Documentation
 ressource-2-text: A full documentation of Palladio is available on our github repository.
 ressource-2-link-text: → Read documentation
-ressource-2-link-url: https://github.com/Esri/cityengine-sdk/blob/master/README.md
+ressource-2-link-url: https://github.com/Esri/cityengine-sdk/blob/main/README.md
 
 ressource-3-title: Github
 ressource-3-text: For more information, assets and resources check our Github repository.
@@ -49,7 +49,7 @@ examples:
 
     files:
       - title: Example Folder
-        link: https://github.com/Esri/cityengine-sdk/tree/master/examples
+        link: https://github.com/Esri/cityengine-sdk/tree/main/examples
 
     images:
       - image-name: cityengine_ex_1_1.png
