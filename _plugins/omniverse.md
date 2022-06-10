@@ -1,7 +1,7 @@
 ---
 layout: detail
 fullpreview: true
-order-of-appearance: 7
+order-of-appearance: 5
 draft: false
 
 name: Omniverse

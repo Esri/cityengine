@@ -1,7 +1,7 @@
 ---
 layout: detail
 fullpreview: true
-order-of-appearance: 6
+order-of-appearance: 7
 draft: false
 
 name: CityEngineSDK
