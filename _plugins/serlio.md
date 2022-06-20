@@ -10,7 +10,7 @@ platform: Maya
 logo: serlio.png
 github: https://github.com/Esri/serlio
 
-teaser-image: serlio_ex_1_3.png
+teaser-image: serlio_ex_2_2.png
 
 hero-title: Serlio
 hero-subtitle: CityEngine Plugin for Autodesk Maya
@@ -21,7 +21,7 @@ hero-content:
 description: Serlio is a plugin for Autodesk Maya. It provides a modifier node which enables the execution of CityEngine CGA rules within a Maya scene. This allows the 3D environment artist to make use of the power of procedural modeling in CityEngine without have to leave the familiar Maya toolset.
 
 gallery:
-  - image: serlio_ex_1_2.png
+  - image: serlio_ex_2_1.png
   - image: serlio_ex_1_1.png
 
 introduction: With Serlio, complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” in future. The buildings stay procedural during the entire modeling workflow. Consequently, the 3D environment artist can change many attributes, for example the height, style and appearance of buildings easily with a parametric interface at any point during production.<br/><br/>Serlio requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Serlio.<br/><br/>Serlio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Serlio is restricted to the procedural generation of singular objects - particularly buildings. Serlio does not include the city layout and street network editing tools of CityEngine (i.e. the rich CityEngine toolset to design a city from scratch, or based on geographic data, is still needed).<br/><br/><strong><i>Serlio is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
