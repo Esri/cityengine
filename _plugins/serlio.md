@@ -47,8 +47,12 @@ examples:
     text: The Street Segment example demonstrates the main features of Serlio in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes. </li><li>v2 released on 2022-06-20 for Serlio v2.0.0</li></ul>
 
     files:
-    - title: Street Segment Maya Project
-      link: https://github.com/Esri/serlio/releases/download/v2.0.0/street_segment_maya_project.zip
+    - title: Street Segment Example Part 1 (Maya Scene files)
+      link: https://github.com/Esri/serlio/releases/download/v2.0.0/street_segment_part1_maya_project_files.zip
+    - title: Street Segment Example Part 2 (RPKs)
+      link: https://github.com/Esri/serlio/releases/download/v2.0.0/street_segment_part2_maya_assets.zip
+    - title: Street Segment Example Part 3 (RPKs)
+      link: https://github.com/Esri/serlio/releases/download/v2.0.0/street_segment_part3_maya_assets.zip
     - title: Instructions
       link: ./assets/files/serlio_street_segment_instructions.txt
 
