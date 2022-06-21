@@ -44,7 +44,7 @@ ressource-3-link-url: https://github.com/esri/serlio/
 examples:
 
   - title: Street Segment Maya Project
-    text: The Street Segment example demonstrates the main features of Serlio in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes. </li><li>v1 released on 2022-06-20 for Serlio v2.0.0</li></ul>
+    text: The Street Segment example demonstrates the main features of Serlio in a compact scene. Starting from various input shapes (street shapes and building/floor footprints), multiple different Rule Packages are applied to create models ranging from abstract building volumes to realistic facades and street-level scenes. Extract the contents of all 3 zips into a <strong>single directory</strong>. Then open Maya and set this directory (containing the <em>workspace.mel</em>) as the current project before opening one of the four Maya scenes.</br></br><strong>Notes:</strong><ul><li>Requires Maya 2019 or later. </li><li>v1 released on 2022-06-20 for Serlio v2.0.0</li></ul>
 
     files:
     - title: Street Segment Example Part 1 (Maya Scene files)
@@ -53,8 +53,6 @@ examples:
       link: https://github.com/Esri/serlio/releases/download/v2.0.0/street_segment_part2_maya_assets_v1.zip
     - title: Street Segment Example Part 3 (RPKs)
       link: https://github.com/Esri/serlio/releases/download/v2.0.0/street_segment_part3_maya_assets_v1.zip
-    - title: Instructions
-      link: ./assets/files/serlio_street_segment_instructions.txt
 
     images:
       - image-name: serlio_ex_2_1.png
@@ -62,13 +60,11 @@ examples:
 
 
   - title: Favela Maya Project
-    text: The Favela example demonstrates how a complex CityEngine Rule Package (RPK) is applied on one or more polygons. The provided Maya project includes an Alembic file with shapes from CityEngine, the Favela RPK itself and Maya scenes.</br></br><strong>Notes:</strong><ul><li>Requires Maya 2018 or later. </li><li>Based on the <a href="https://www.youtube.com/watch?v=IY5gU1J39Ec" target="_blank">original "Favela" project (YouTube)</a> created with CityEngine, Maya and Maxwell created by Matthias Bühler and Cyrill Oberhänsli. </li><li>v3 released on 2022-06-20 for Serlio v2.0.0</li></ul>
+    text: The Favela example demonstrates how a complex CityEngine Rule Package (RPK) is applied on one or more polygons. The provided Maya project includes an Alembic file with shapes from CityEngine, the Favela RPK itself and Maya scenes. Extract the contents of the zip. Then open Maya and set the directory with the <em>workspace.mel</em> as the current project before opening one of the four Maya scenes.</br></br><strong>Notes:</strong><ul><li>Requires Maya 2019 or later. </li><li>Based on the <a href="https://www.youtube.com/watch?v=IY5gU1J39Ec" target="_blank">original "Favela" project (YouTube)</a> created with CityEngine, Maya and Maxwell created by Matthias Bühler and Cyrill Oberhänsli. </li><li>v3 released on 2022-06-20 for Serlio v2.0.0</li></ul>
 
     files:
     - title: Favela Maya Project
       link: https://github.com/Esri/serlio/releases/download/v2.0.0/favela_maya_project_v3.zip
-    - title: Instructions
-      link: ./assets/files/serlio_favela_instructions.txt
 
     images:
       - image-name: serlio_ex_1_1.png

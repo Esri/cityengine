@@ -1,7 +1,0 @@
-Street Segment Favela Example Instructions
-
-Guide:
-
-1. Call "File | Set Project..." and set it to the downloaded Street Segment Maya project (otherwise Serlio will not find the required rule packages).
-
-2. Open one of the four provided Maya scenes, this will immediately trigger the generation of the building models - it might take a while to load the scene after starting Maya.
