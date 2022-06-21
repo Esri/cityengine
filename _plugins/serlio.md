@@ -10,7 +10,7 @@ platform: Maya
 logo: serlio.png
 github: https://github.com/Esri/serlio
 
-teaser-image: serlio_ex_2_2.png
+teaser-image: serlio_ex_2_2.jpg
 
 hero-title: Serlio
 hero-subtitle: CityEngine Plugin for Autodesk Maya
