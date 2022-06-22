@@ -1,7 +1,0 @@
-Serlio Favela Example Instructions
-
-Guide:
-
-1. Call "File | Set Project..." and set it to the downloaded Favela Maya project (otherwise Serlio will not find the Favela RPK).
-
-2. Open one of the two provided Maya scenes, this will immediately trigger the generation of the Favela model - it might take a while to load the RPK on the first time after starting Maya.
