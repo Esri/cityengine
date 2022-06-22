@@ -16,7 +16,7 @@ hero-title: Serlio
 hero-subtitle: CityEngine Plugin for Autodesk Maya
 hero-content:
   - type: video
-    name: G6MpB4dDhx0
+    name: 1rFuGmc-Jac
 
 description: Serlio is a plugin for Autodesk Maya. It provides a modifier node which enables the execution of CityEngine CGA rules within a Maya scene. This allows the 3D environment artist to make use of the power of procedural modeling in CityEngine without have to leave the familiar Maya toolset.
 
