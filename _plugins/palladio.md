@@ -51,7 +51,7 @@ examples:
 
     files:
       - title: Houdini and CityEngine projects
-        link: https://github.com/Esri/palladio/releases/download/v1.6.0/Palladio_Example_Angkor_Thom_v2.zip
+        link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/Palladio_Example_Angkor_Thom_v3.zip
       - title: Instructions
         link: ./assets/files/palladio_angkor_thom_instructions.txt
 
@@ -64,7 +64,7 @@ examples:
 
     files:
       - title: Houdini Project
-        link: https://github.com/Esri/palladio/releases/download/v1.6.1/favela_houdini_project_v1.zip
+        link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/Palladio_Example_Favela_v2.zip
       - title: Favela RPK
         link: https://github.com/Esri/palladio/releases/download/v1.6.0/FAVELA.rpk
 
@@ -78,7 +78,7 @@ examples:
 
     files:
       - title: Houdini Scene (HIPNC)
-        link: https://github.com/Esri/palladio/releases/download/v1.4.0/PalladioDemo03.zip
+        link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/PalladioDemo03_v2.zip
       - title: Houdini Digital Asset (HDANC)
         link: https://github.com/Esri/palladio/releases/download/v1.6.1/PalladioCityEngineMaterial-v2.hdanc
 
@@ -92,7 +92,7 @@ examples:
 
     files:
       - title: Houdini Scene (HIPNC)
-        link: https://github.com/Esri/palladio/releases/download/v1.1/PalladioDemo02.zip
+        link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/PalladioDemo02_v2.zip
 
     images:
       - image-name: palladio_ex_4_1.jpg
@@ -103,7 +103,7 @@ examples:
 
     files:
       - title: Houdini Scene (HIPNC)
-        link: https://github.com/Esri/palladio/releases/download/v1.0/PalladioDemo01.zip
+        link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/PalladioDemo01_v2.zip
 
     images:
       - image-name: palladio_ex_5_1.jpg
