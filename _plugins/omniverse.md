@@ -8,7 +8,6 @@ name: Omniverse
 title: Omniverse Connector for CityEngine
 platform: Omniverse
 logo: omniverse.png
-#github: https://github.com/Esri/cityengine-sdk
 
 teaser-image: omniverse_teaser_image.png
 
@@ -31,10 +30,9 @@ ressource-1-text: The Omniverse Connector for CityEngine is available in the off
 ressource-1-link-text: → Go to the Omniverse Launcher Documentation
 ressource-1-link-url: https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html
 
-ressource-2-title: Documentation
-ressource-2-text: A full documentation of the Connector is available in the Nvidia documentation hub.
-ressource-2-link-text: → Read documentation
-ressource-2-link-url: https://docs.omniverse.nvidia.com/con_connect/con_connect/cityengine.html
+documentation-title: Documentation
+documentation-text: Find installation instructions and read the user manual and release notes.
+documentation-link-text: → Read documentation
 
 legal: <ul><li>The Omniverse Connector is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted.</li><li>For questions or enquiries, please contact <a href= "mailto:cityengine-info@esri.comm">cityengine-info@esri.com</a></li></ul>
 
