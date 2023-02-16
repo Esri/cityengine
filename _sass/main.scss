@@ -31,7 +31,6 @@ h1{
 }
 
 h2{
-  padding: 0 20px;
   text-align: left;
 }
 
@@ -384,6 +383,24 @@ nav{
   margin: 0 auto;
   padding: 0 20px;
   height: 100%;
+}
+
+.doc-content {
+  width: 1024px;
+  max-width: 96vw;
+  margin: 0 auto;
+  padding: 20px 20px;
+  height: 100%;
+}
+
+.doc-content h1 {
+  font-size: 50px;
+  font-weight: 250;
+}
+
+.doc-content h2 {
+  font-size: 40px;
+  font-weight: 250;
 }
 
 .gallery{
