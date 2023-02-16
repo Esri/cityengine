@@ -129,6 +129,16 @@
           <a href="{{ page.ressource-3-link-url }}" target="_blank" class="darkblue">{{ page.ressource-3-link-text }}</a>
         </div>
         {% endif %}
+        {% if page.documentation-title %}
+        <div class="third">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-ui-svg" viewBox="0 0 32 32">
+            <path d="M15 4h14v1H15zm3 7h11v-1H18zm3 6h8v-1h-8zM3 23h26v-1H3zm0 6h26v-1H3zm11.89-12H16L9.869 3h-.628L3 17h1.11l1.764-4h7.288zm-8.575-5l3.24-7.348L12.73 12z"/>
+          </svg>
+          <h3 class="subtitle4">{{ page.documentation-title }}</h3>
+          <p>{{ page.documentation-text }}</p>
+          <a href="{{ site.url | relative_url }}/documentation/{{ page.name | downcase}}" target="_blank" class="darkblue">{{ page.documentation-link-text }}</a>
+        </div>
+        {% endif %}
       </div>
     </section>
 
