@@ -50,7 +50,7 @@ examples:
     text: This example includes full CityEngine and Houdini projects. It demonstrates how to use CityEngine to author procedural assets like Walls, Stairs, Porticos and combine them in Houdini via Palladio and Rule Packages.</br>Notes:</br></br><ul><li>Created by Matthias Buehler</li><li>Also covered in "Digital Production" Issue 05/18 (Article in German).</li></ul></br></br>Downloads&colon;
 
     files:
-      - title: Houdini and CityEngine projects
+      - title: Houdini and CityEngine projects (Palladio 2.0)
         link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/Palladio_Example_Angkor_Thom_v3.zip
       - title: Instructions
         link: ./assets/files/palladio_angkor_thom_instructions.txt
@@ -63,7 +63,7 @@ examples:
     text: The Favela example demonstrates the packaging of a complex Rule Package into a Houdini Digital Asset with custom high-level parameters. The provided Houdini scene additionally shows how to prepare the input geometry for Palladio out of an Alembic archive (setup of random seed and start rule).</br></br>Notes:</br><ul><li>Requires Houdini 17.5 and Palladio 1.6.1 or later.</li><li>Based on the original "Favela" project (YouTube) created with CityEngine, Maya and Maxwell.</li><li>Created by Matthias Buehler</li></ul></br></br>Downloads&colon;
 
     files:
-      - title: Houdini Project
+      - title: Houdini Project (Palladio 2.0)
         link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/Palladio_Example_Favela_v2.zip
       - title: Favela RPK
         link: https://github.com/Esri/palladio/releases/download/v1.6.0/FAVELA.rpk
@@ -77,7 +77,7 @@ examples:
     text: This example shows how to use the generated CityEngine material attributes with Mantra.</br></br>Downloads&colon;
 
     files:
-      - title: Houdini Scene (HIPNC)
+      - title: Houdini Scene (HIPNC) (Palladio 2.0)
         link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/PalladioDemo03_v2.zip
       - title: Houdini Digital Asset (HDANC)
         link: https://github.com/Esri/palladio/releases/download/v1.6.1/PalladioCityEngineMaterial-v2.hdanc
@@ -91,7 +91,7 @@ examples:
     text: Downloads&colon;
 
     files:
-      - title: Houdini Scene (HIPNC)
+      - title: Houdini Scene (HIPNC) (Palladio 2.0)
         link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/PalladioDemo02_v2.zip
 
     images:
@@ -102,7 +102,7 @@ examples:
     text: Downloads&colon;
 
     files:
-      - title: Houdini Scene (HIPNC)
+      - title: Houdini Scene (HIPNC) (Palladio 2.0)
         link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.1/PalladioDemo01_v2.zip
 
     images:
