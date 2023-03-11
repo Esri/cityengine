@@ -16,8 +16,8 @@ The Omniverse Connector for CityEngine provides an uni-directional link to Omniv
 
 ## Installation Instructions
 
-1. Install CityEngine 2021.1 or 2022.0. Please refer to [CityEngine - Get Started](https://doc.arcgis.com/en/cityengine/2022.0/get-started/cityengine-get-started.htm) for details.
-1. Install the connector from the corresponding Omniverse Launcher item, see [Omniverse Launcher Overview](https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html) for additional information.
+1. Ensure one (or more) of CityEngine 2021.1, 2022.0 or 2022.1 is installed. Please refer to [CityEngine - Get Started](https://doc.arcgis.com/en/cityengine/2022.0/get-started/cityengine-get-started.htm) for installation instructions.
+1. Install the connector from the corresponding Omniverse Launcher item, see [Omniverse Launcher Overview](https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html) for additional information. You will be able to select into which CityEngine version(s) to install the connector.
 
 ## Usage Manual
 
@@ -38,6 +38,8 @@ The typical steps to send a CityEngine scene to Omniverse are as follows:
 ### Updating a prior export
 
 To use the update functionality, first use Create or View to activate the "live mode" on the sub-layer or the layer which references the root USD file from CityEngine.
+
+Note: in recent Omniverse Create/View apps there is no per-layer "live mode" anymore. Instead, a prompt will ask for layer reloading.
 
 If the connector detects a prior export (e.g. `/Users/CityEngine/myCity/myCity_root.usdc`) on Nucleus with the same name (e.g. `myCity`), it will non-destructively layer the new models on top of the existing data and hide the outdated models. The data of each such iteration is placed in corresponding `edit` directories, e.g. `/Users/CityEngine/myCity/edit_1/`.
 
@@ -67,6 +69,10 @@ In above example, the resulting prim in Omniverse will be called `Shape_1692b074
 Please also refer to the model export section in the [CityEngine Manual](https://doc.arcgis.com/en/cityengine/2022.0/help/help-export-models-overview.htm).
 
 ## Release Notes
+
+### Version 1.0.2 (2023-03-11)
+
+* New: Added support for CityEngine 2022.1.
 
 ### Version 1.0.1 (2022-10-19)
 
