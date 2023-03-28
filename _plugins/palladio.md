@@ -91,7 +91,7 @@ examples:
     text: Downloads&colon;
 
     files:
-      - title: Houdini Scene (HIPNC) (Palladio 2.0) (Update 2023-03-28: fixed lighting and materials)
+      - title: Houdini Scene (HIPNC) (for Palladio 2.0; Updated on 2023-03-28 to fix lighting and materials.)
         link: https://github.com/Esri/palladio/releases/download/v2.0.0-beta.2/PalladioDemo02_v3.zip
 
     images:
