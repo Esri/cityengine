@@ -33,7 +33,7 @@ ressource-1-link-text: → Go to downloads
 ressource-1-link-url: https://github.com/esri/cityengine-sdk/releases
 
 ressource-2-title: Documentation
-ressource-2-text: A full documentation of Palladio is available on our github repository.
+ressource-2-text: The full documentation for the CityEngine SDK is available on our github repository.
 ressource-2-link-text: → Read documentation
 ressource-2-link-url: https://github.com/Esri/cityengine-sdk/blob/main/README.md
 
