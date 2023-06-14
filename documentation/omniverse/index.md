@@ -70,7 +70,7 @@ Please also refer to the model export section in the [CityEngine Manual](https:/
 
 ## Release Notes
 
-### Version 1.0.3 (2023-06-XX)
+### Version 1.0.3 (2023-06-15)
 
 * New: Added support for CityEngine 2023.0
 * Removed support for CityEngine 2021.1
