@@ -66,7 +66,7 @@ In above example, the resulting prim in Omniverse will be called `Shape_1692b074
 * `Up Vector`: Sets the stage up-vector and transforms the CityEngine models accordingly. This is useful to work with AEC content which is typically stored as `z-Up`. Default is `z-Up`.
 * `Triangulate Meshes`: If enabled, converts general polygons into triangles for proper rendering in Omniverse. Enabled by default.
 
-Please also refer to the model export section in the [CityEngine Manual](https://doc.arcgis.com/en/cityengine/2022.0/help/help-export-models-overview.htm).
+Please also refer to the model export section in the [CityEngine Manual](https://doc.arcgis.com/en/cityengine/2023.0/help/help-export-models-overview.htm).
 
 ## Release Notes
 
