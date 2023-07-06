@@ -62,6 +62,7 @@ In above example, the resulting prim in Omniverse will be called `Shape_1692b074
   * Shapes: Only export the shape geometry.
 * `Terrain Layers`: control the export of terrain layers based on selection. By default, all selected terrain layers will be exported.
 * `Simplify Terrain Meshes`: If enabled, uses the CGA `reduceGeometry` operation to simplify the terrain geometry prior to export. This can take a long time, especially on higher resolution terrains (enabled by default).
+* `Terrain Mesh Resolution`: Determines the number of mesh vertices in the U and V directions of each exported terrain layer.
 * `Global Offset`: Offset the exported geometry. The `center` button will compute an offset so that the combined bounding box will be centered around the origin. This is useful to de-georeference a scene to prevent floating point precision issues in Omniverse. By default, no offset is applied.
 * `Up Vector`: Sets the stage up-vector and transforms the CityEngine models accordingly. This is useful to work with AEC content which is typically stored as `z-Up`. Default is `z-Up`.
 * `Triangulate Meshes`: If enabled, converts general polygons into triangles for proper rendering in Omniverse. Enabled by default.
