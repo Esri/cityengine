@@ -33,13 +33,11 @@ The typical steps to send a CityEngine scene to Omniverse are as follows:
 1. Specify the desired Nucleus host name, path and export name, e.g. `myName`
 1. Click finish.
 1. The exported USD scene will be written to e.g. `/Users/CityEngine/myName`.
-1. In Omniverse Create or View, either open the `/Users/CityEngine/myName/myName_root.usdc` file directly or add it as sub-layer or reference to an existing scene.
+1. In an Omniverse app (e.g. Composer), either open the `/Users/CityEngine/myName/myName_root.usdc` file directly or add it as sub-layer or reference to an existing scene.
 
 ### Updating a prior export
 
-To use the update functionality, first use Create or View to activate the "live mode" on the sub-layer or the layer which references the root USD file from CityEngine.
-
-Note: in recent Omniverse Create/View apps there is no per-layer "live mode" anymore. Instead, a prompt will ask for layer reloading.
+Note: the Omniverse apps (e.g. Composer) will automatically detect when CityEngine updates a layer and will prompt for layer reloading.
 
 If the connector detects a prior export (e.g. `/Users/CityEngine/myCity/myCity_root.usdc`) on Nucleus with the same name (e.g. `myCity`), it will non-destructively layer the new models on top of the existing data and hide the outdated models. The data of each such iteration is placed in corresponding `edit` directories, e.g. `/Users/CityEngine/myCity/edit_1/`.
 
