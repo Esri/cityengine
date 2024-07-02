@@ -16,8 +16,8 @@ The Omniverse Connector for CityEngine provides an uni-directional link to Omniv
 
 ## Installation Instructions
 
-1. Install at least one of these CityEngine versions: 2022.1, 2023.0 or 2023.1. Please refer to [CityEngine - Get Started](https://doc.arcgis.com/en/cityengine/2023.0/get-started/cityengine-get-started.htm) for installation instructions.
-1. Install the connector from the corresponding Omniverse Launcher item, see [Omniverse Launcher Overview](https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html) for additional information. You will be able to select into which CityEngine version(s) to install the connector.
+1. Install CityEngine 2024.0. Please refer to [CityEngine - Get Started](https://doc.arcgis.com/en/cityengine/2024.0/get-started/cityengine-get-started.htm) for installation instructions.
+1. Install the connector from the corresponding Omniverse Launcher item, see [Omniverse Launcher Overview](https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html) for additional information.
 
 ## Usage Manual
 
@@ -68,6 +68,11 @@ In above example, the resulting prim in Omniverse will be called `Shape_1692b074
 Please also refer to the model export section in the [CityEngine Manual](https://doc.arcgis.com/en/cityengine/2023.0/help/help-export-models-overview.htm).
 
 ## Release Notes
+
+### Version 1.0.5 (2024-07-02)
+
+* New: Added support for CityEngine 2024.0
+* Removed support for older CityEngine versions.
 
 ### Version 1.0.4 (2023-11-30)
 
