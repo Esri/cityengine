@@ -30,7 +30,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-plugins: []
+plugins:
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.

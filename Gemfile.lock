@@ -263,6 +263,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 104)
+  jekyll-redirect-from
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
