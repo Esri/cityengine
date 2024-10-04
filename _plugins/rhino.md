@@ -34,12 +34,12 @@ ressource-1-link-url: https://www.food4rhino.com/en/app/puma
 ressource-2-title: Documentation
 ressource-2-text: A full documentation of ArcGIS CityEngine for Rhino is available on our github repository.
 ressource-2-link-text: → Read documentation
-ressource-2-link-url: https://github.com/esri/puma/blob/master/README.md
+ressource-2-link-url: https://github.com/esri/cityengine_for_rhino/blob/master/README.md
 
 ressource-3-title: Github
 ressource-3-text: For more information, assets and resources check our Github repository.
 ressource-3-link-text: → Go to Github
-ressource-3-link-url: https://github.com/esri/puma
+ressource-3-link-url: https://github.com/esri/cityengine_for_rhino
 
 examples:
 
@@ -48,15 +48,15 @@ examples:
 
     files:
       - title: Street Segment Example Part 1 (Rhino Scene files)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_1_Rhino.Files.zip
+        link: https://github.com/Esri/cityengine_for_rhino/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_1_Rhino.Files.zip
       - title: Street Segment Example Part 2 (Building Construction RPKs)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_2_Building_Construction_RPKs.zip
+        link: https://github.com/Esri/cityengine_for_rhino/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_2_Building_Construction_RPKs.zip
       - title: Street Segment Example Part 3 (Complete Streets RPKs)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_3_Complete_Street_RPKs.zip
+        link: https://github.com/Esri/cityengine_for_rhino/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_3_Complete_Street_RPKs.zip
       - title: Street Segment Example Part 4 (Generic Modern Building RPKs)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_4_Generic_Modern_Building_RPKs.zip
+        link: https://github.com/Esri/cityengine_for_rhino/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_4_Generic_Modern_Building_RPKs.zip
       - title: Street Segment Example Part 5 (Floor RPKs)
-        link: https://github.com/Esri/puma/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_5_Floor_RPKs.zip
+        link: https://github.com/Esri/cityengine_for_rhino/releases/download/v1.0.0/Puma_Street_Segment_Example_Part_5_Floor_RPKs.zip
 
     images:
       - image-name: puma_street_segment_overview_1920x1080.jpg
