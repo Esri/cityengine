@@ -26,14 +26,9 @@ gallery:
 introduction: The Omniverse Connector for CityEngine provides an uni-directional link to Omniverse Nucleus. On top of the basic export functionality, repeated exports with the same name will accumulate using USD composition techniques. This allows for convenient tweaking of an exported model (e.g. updating a single building in a large city) without having to re-run full exports (which are potentially time-consuming).
 
 ressource-1-title: Downloads
-ressource-1-text: Download the installer for the Omniverse Connector directly (alternative to the Omniverse Launcher).
+ressource-1-text: Download the installer for the Omniverse Connector.
 ressource-1-link-text: → Go to downloads
 ressource-1-link-url: https://github.com/Esri/cityengine/releases
-
-ressource-2-title: Installation
-ressource-2-text: The Omniverse Connector for CityEngine is available in the official Nvidia Omniverse Launcher
-ressource-2-link-text: → Go to the Omniverse Launcher Documentation
-ressource-2-link-url: https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html
 
 documentation-title: Documentation
 documentation-text: Find installation instructions and read the user manual and release notes.
