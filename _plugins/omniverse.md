@@ -30,7 +30,7 @@ ressource-1-text: Download the installer for the Omniverse Connector.
 ressource-1-link-text: → Go to downloads
 ressource-1-link-url: https://github.com/Esri/cityengine/releases
 
-documentation-title: Documentation
+documentation-title: Installation & Documentation
 documentation-text: Find installation instructions and read the user manual and release notes.
 documentation-link-text: → Read documentation
 
