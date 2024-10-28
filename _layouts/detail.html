@@ -56,14 +56,18 @@
         </div>
         <div class="two-third horizontal just-centered aspect">
           {% for item in page.hero-content %}
-          {% if item.type == "video"  %}
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/{{ item.name | append: '?wmode=transparent' }}" frameborder="0" allowfullscreen></iframe>
-            </div>
-          {% endif %}
-          {% if item.type == "image" %}
-            <img class="image-shadow" src="{{ site.url | relative_url }}/assets/img/{{ item.name }}"/>
-          {% endif %}
+            {% if item.type == "video"  %}
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ item.name | append: '?wmode=transparent' }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            {% elsif item.type == "video-esri" %}
+              <div class="video-container flex-grow">
+                <iframe src="https://mediaspace.esri.com/embed/secure/iframe/entryId/{{ item.name }}" allowfullscreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0"></iframe>
+              </div>
+            {% endif %}
+            {% if item.type == "image" %}
+              <img class="image-shadow" src="{{ site.url | relative_url }}/assets/img/{{ item.name }}"/>
+            {% endif %}
           {% endfor %}
           <!---->
         </div>
