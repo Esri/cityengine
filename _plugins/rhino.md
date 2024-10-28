@@ -15,8 +15,8 @@ teaser-image: puma_street_segment_overview_1920x1080.jpg
 hero-title: ArcGIS CityEngine for Rhino
 hero-subtitle: CityEngine Plugin for Rhino and Grasshopper
 hero-content:
-  - type: video
-    name: JHMathmLBY8
+  - type: video-esri
+    name: 1_01id0tp9
 
 description: ArcGIS CityEngine for Rhino is a plugin for Rhino and Grasshopper. It provides a Rhino command and Grasshopper components which enable the execution of CityEngine rules within a Rhino scene.
 
