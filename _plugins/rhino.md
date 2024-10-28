@@ -29,7 +29,7 @@ introduction: ArcGIS CityEngine for Rhino (formerly known as "Puma") is a plugin
 ressource-1-title: Downloads
 ressource-1-text: Search for ArcGIS CityEngine for Rhino in the built-in <strong>Package Manager of Rhino</strong> (recommended) or manually download from the Food4Rhino app store.
 ressource-1-link-text: → Go to the Food4Rhino app store
-ressource-1-link-url: https://www.food4rhino.com/en/app/puma
+ressource-1-link-url: https://www.food4rhino.com/en/app/arcgis-cityengine-rhino-and-grasshopper
 
 ressource-2-title: Documentation
 ressource-2-text: A full documentation of ArcGIS CityEngine for Rhino is available on our github repository.
