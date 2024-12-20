@@ -5,7 +5,7 @@ order-of-appearance: 4
 draft: false
 
 name: ArcGIS CityEngine for Unreal Engine
-title: CityEngine Plugin for Unreal Engine
+title: ArcGIS CityEngine for Unreal Engine
 platform: Unreal Engine
 logo: vitruvio.png
 github: https://github.com/Esri/vitruvio
@@ -26,7 +26,7 @@ gallery:
 - image: vitruvio_gallery_3.jpg
 - image: vitruvio_gallery_4.jpg
 
-introduction: With CityEngine for Unreal Engine, game designers or artists do not have to leave the Unreal Engine to make use of the procedural modeling power of CityEngine. The buildings stay procedural all time and artists can change the height, style and appearance of buildings easily with a parametric interface. In addition, buildings can also be generated at runtime.<br/>CityEngine for Unreal Engine requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. The download section below provides links to the several RPKs which can be used out-of-the-box. <br/><br/><strong><i>ArcGIS CityEngine for Unreal Engine is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
+introduction: With CityEngine for Unreal Engine, game designers or artists do not have to leave Unreal Engine to make use of the procedural modeling power of CityEngine. The buildings stay procedural all time and artists can change the height, style and appearance of buildings easily with a parametric interface. In addition, buildings can also be generated at runtime.<br/>CityEngine for Unreal Engine requires Rule Packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. The download section below provides links to the several RPKs which can be used out-of-the-box. <br/><br/><strong><i>ArcGIS CityEngine for Unreal Engine is free for personal, educational, and non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Redistribution or web service offerings are not allowed unless expressly permitted. Please refer to the licensing section below for more detailed licensing information.</strong></i>
 
 callout: true
 callout-text: Help us improve ArcGIS CityEngine for Unreal Engine&#58
