@@ -4,7 +4,7 @@ fullpreview: true
 order-of-appearance: 4
 draft: false
 
-name: ArcGIS CityEngine for Unreal Engine
+name: vitruvio
 title: ArcGIS CityEngine for Unreal Engine
 platform: Unreal Engine
 logo: vitruvio.png
@@ -83,7 +83,7 @@ examples:
         link: https://github.com/Esri/cityengine_for_unreal/releases/download/v2.2/CE_for_UE55_MedievalCity.zip
 
   - title: NYC 2259
-    text: This example features New York city 240 years into the future, inspired by the great 1998 motion picture The Fifth Element.</br></br>Notes&colon;</br><ul><li>The rules are adapted from the NYC2259 example of CityEngine.</li><li>The rules assign custom Unreal Materials to the building facades which can be found in the Content/Materials folder.</li><li>Please make sure to <a href="https://github.com/Esri/cityengine_for_unreal/blob/master/doc/installation.md">install Vitruvio</a> before running the examples.</li></ul></br></br>Downloads&colon;
+    text: This example features New York city 240 years into the future, inspired by the great 1998 motion picture The Fifth Element.</br></br>Notes&colon;</br><ul><li>The rules are adapted from the NYC2259 example of CityEngine.</li><li>The rules assign custom Unreal Materials to the building facades which can be found in the Content/Materials folder.</li><li>Please make sure to <a href="https://github.com/Esri/cityengine_for_unreal/blob/master/doc/installation.md">install CityEngine for Unreal Engine</a> before running the examples.</li></ul></br></br>Downloads&colon;
     images:
       - image-name: vitruvio_ex_4_1.png
     files:
