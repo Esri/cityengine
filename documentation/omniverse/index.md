@@ -16,8 +16,8 @@ The Omniverse Connector for CityEngine provides an uni-directional link to Omniv
 
 ## Installation Instructions
 
-1. Install CityEngine 2024.0. Please refer to [CityEngine - Get Started](https://doc.arcgis.com/en/cityengine/2024.0/get-started/cityengine-get-started.htm) for installation instructions.
-1. Install the connector from the corresponding Omniverse Launcher item, see [Omniverse Launcher Overview](https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/overview.html) for additional information.
+1. Install CityEngine 2024.1. Please refer to [CityEngine - Get Started](https://doc.arcgis.com/en/cityengine/2024.1/get-started/cityengine-get-started.htm) for installation instructions.
+1. Install the connector from [our github release page](https://github.com/Esri/cityengine/releases/latest) for additional information.
 
 ## Usage Manual
 
