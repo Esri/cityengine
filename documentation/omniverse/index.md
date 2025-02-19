@@ -69,6 +69,11 @@ Please also refer to the model export section in the [CityEngine Manual](https:/
 
 ## Release Notes
 
+### Version 1.0.6 (2025-02-19)
+
+* New: Added support for CityEngine 2024.1
+* Removed support for older CityEngine versions.
+
 ### Version 1.0.5 (2024-07-02)
 
 * New: Added support for CityEngine 2024.0
