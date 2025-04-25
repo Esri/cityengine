@@ -50,7 +50,7 @@ ressource-3-link-url: https://github.com/Esri/vitruvio
 
 examples:
   - title: New York
-    text: This example showcases how CityEngine for Unreal Engine can be used in combination with the <a href="https://developers.arcgis.com/unreal-engine/">ArcGIS MapsSDK for Unreal Engine</a> and Esri's feature services to download building footprints and automatically generate buildings using CityEngine for Unreal Engine's C++ API.</br></br>Notes&colon;</br><ul><li>Please make sure to <a href="https://github.com/Esri/cityengine_for_unreal/blob/master/doc/installation.md">install CityEngine for Unreal Engine</a>.</li><li>Please make sure to install <a href="https://developers.arcgis.com/unreal-engine/install-and-set-up/">ArcGIS MapsSDK (v1.7) for Unreal Engine</a>.</li><li>Please make sure to setup the <a href="https://developers.arcgis.com/unreal-engine/authentication/#api-key-authentication">API key authentication</a> in the MapsSDK for Unreal Engine.</li><li>The rules are from the International City example of CityEngine.</li></ul></br></br>Downloads&colon;
+    text: This example showcases how CityEngine for Unreal Engine can be used in combination with the <a href="https://developers.arcgis.com/unreal-engine/">ArcGIS MapsSDK for Unreal Engine</a> and Esri's feature services to stream building footprints and automatically generate buildings using CityEngine for Unreal Engine's C++ API.</br></br>Notes&colon;</br><ul><li>Please make sure to <a href="https://github.com/Esri/cityengine_for_unreal/blob/master/doc/installation.md">install CityEngine for Unreal Engine</a>.</li><li>Please make sure to install <a href="https://developers.arcgis.com/unreal-engine/install-and-set-up/">ArcGIS MapsSDK (v1.7) for Unreal Engine</a>.</li><li>Please make sure to setup the <a href="https://developers.arcgis.com/unreal-engine/authentication/#api-key-authentication">API key authentication</a> in the MapsSDK for Unreal Engine.</li><li>The rules are from the International City example of CityEngine.</li></ul></br></br>Downloads&colon;
     images:
       - image-name: vitruvio_ex_2_1.jpg
     files:
@@ -62,7 +62,7 @@ examples:
     images:
       - image-name: vitruvio_ex_6_1.jpg
     files:
-      - title: Paris Example
+      - title: Zurich Example
         link: https://github.com/Esri/cityengine_for_unreal/releases/download/v2.3/CE_for_UE55_Zurich.zip
 
   - title: Boston Asset Replacements
